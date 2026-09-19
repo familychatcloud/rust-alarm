@@ -1,44 +1,62 @@
+# Wecker: Ohne Werbung, offline
+
+## Sprechender Wecker ohne Werbung: offline und privat
+
 <div align="center">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Kostenloser Rust-Wecker – keine Werbung, kein Tracking, kein Aufblähen">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Sprechender Wecker ohne Werbung: offline und privat">
 
-# Kostenloser Rust-Wecker – keine Werbung, kein Tracking, kein Aufblähen
-
-### Ein leichter Offline-Alarm für iPhone, iPad und Android.
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
 </div>
 
-## Hören Sie, warum der Alarm klingelt
+Hör morgens, wofür dein Wecker klingelt. Noler liest deinen Alarmnamen vor und speichert deine Alarme auf dem Gerät. Ohne Werbung, Konto oder Abo.
 
-Wachen Sie nicht mit einem bedeutungslosen Klingeln auf. Noler spricht die Aufschrift, die Sie geschrieben haben, wie zum Beispiel „Lass uns zur Schule gehen“, „Nimm deine Medikamente“ oder „Geh zum Flughafen.“ Sie hören den Zweck sofort, auch wenn Sie halb schlafen.
+Ein Wecker, der dich mit deiner eigenen Nachricht begrüßt: Noler liest den Namen deines Alarms vor, etwa „Zeit für die Arbeit“ oder „Ab zum Flughafen“. Der leichte, sprechende Wecker nutzt die Sprachausgabe auf deinem Gerät.
 
-## Warum sollten Sie sich für diesen Rust-Alarm entscheiden?
+Stelle einen einmaligen Alarm oder wiederkehrende Alarme für ausgewählte Wochentage ein. Der nächste Alarm ist auf einen Blick sichtbar. Große Tasten erleichtern Schlummern und Beenden. Ist keine Sprachausgabe möglich, dient ein Alarmton als Ersatz.
 
-- Keine Werbung, kein Abonnement, kein In-App-Kauf, kein Konto, keine Analysen und keine Verhaltensverfolgung.
-- Die normale Alarmnutzung erfolgt vollständig offline. Alarme, Beschriftungen, Einstellungen, Sprache und Terminplanung bleiben ohne WLAN oder mobile Daten auf Ihrem Gerät.
-- Kein Wetter, kein Horoskop, keine Nachrichten, kein Schlaf-Tracking, keine Schnarchaufzeichnung, keine Werbung oder keine Cloud-Synchronisierungsarbeit hinter Ihrem Alarm.
+Im normalen Alarmbetrieb funktioniert alles offline, ohne WLAN oder mobile Daten. Termine, Sprachausgabe, Alarmdaten, Einstellungen und Anhänge bleiben auf deinem Gerät. Ohne Werbung, Analysedienste, Verhaltenstracking, Konto, Cloud-Synchronisierung, Abos oder In-App-Käufe.
 
-## Klein und konzentriert
+Akku sparen beginnt mit weniger Aufgaben. Noler verzichtet auf Wetter- und Horoskop-Feeds, Werbung, Analysedienste, Cloud-Synchronisierung und andere Online-Feeds im Hintergrund. Deren Netzwerk- und Rechenaufwand entfällt. Der tatsächliche Akkuverbrauch hängt von Gerät, Einstellungen und Alarmnutzung ab; eine feste Ersparnis wird nicht versprochen.
 
-Das aktuelle iOS-Paket ist 11,5 MB groß, verglichen mit 237,5 MB von Alarmy – etwa 20-mal kleiner. Das aktuelle Android App Bundle von Noler, das auf Google Play hochgeladen wurde, ist 5,6 MB groß.
+Rust und Dioxus bilden den gemeinsamen App-Kern und die Oberfläche. Die Oberfläche bietet 39 Sprach- und Regionsvarianten. Schlaftracking, Schnarchaufnahmen und Nachrichten-Feeds gehören nicht zum Funktionsumfang.
 
-## Batteriesparen hat Priorität
+Nur unter Android liefert die mitgelieferte Open-Source-Engine Flite eine englische Ersatzstimme, falls keine nutzbare System-Sprachausgabe verfügbar ist. Stimmen hängen von den installierten Sprachen ab. Der optionale Wachhaltemodus ist standardmäßig aus und kann mehr Akku verbrauchen.
 
-Im Nachttest des Besitzers mit demselben Telefon verbrauchte Noler etwa 3 % Akku im Vergleich zu Alarmy 10 % – etwa dreimal weniger Stromverbrauch über Nacht. Die Ergebnisse variieren je nach Gerät und Einstellungen, aber Noler vermeidet die Netzwerk- und Hintergrundarbeit, die diese zusätzlichen Funktionen erfordern.
+Online-Seiten wie Nutzungsbedingungen und Datenschutz laden erst, wenn du sie in den Einstellungen öffnest.
 
-## 39 Schnittstellen-Gebietsschemata und 24 Alarm-Sprachoptionen
+## Noler und Alarmy: unterschiedliche Schwerpunkte
 
-Die App bietet 39 UI-Gebietsschemaoptionen in 32 verschiedenen Sprachen. Alarmbezeichnungen können mithilfe von 24 auf dem Gerät verfügbaren Sprachoptionen gesprochen werden.
+| # | Noler und Alarmy: unterschiedliche Schwerpunkte | Wecker: Ohne Werbung, offline | Alarmy |
+|---|---|---|---|
+| 1 | Zweck | Fokussierter Wecker | Umfangreichere Weck-, Schlaf- und Morgenfunktionen |
+| 2 | Gesprochene Alarmnamen | Liest den gewählten Alarmnamen vor | Aktuellen Store-Eintrag ansehen; hier nicht verglichen |
+| 3 | Technischer Aufbau | Rust + Dioxus; native Swift/Kotlin-Brücken | Vollständiger aktueller Produktionsstack nicht öffentlich bekannt |
+| 4 | iOS-Paketgröße | 11.5 MB (≈1/20) | 237.5 MB |
+| 5 | Android-Upload | 5,6 MB hochgeladenes App Bundle | Keine einheitliche geräteunabhängige Paketgröße veröffentlicht |
+| 6 | Werbung | Keine | Ja |
+| 7 | Käufe und Abonnement | Keine | In-App-Käufe und Premium-Abonnement |
+| 8 | Normaler Offline-Betrieb | Normaler Alarmbetrieb funktioniert offline | Online-Zusatzfunktionen brauchen Internet; Offline-Basisalarme nicht verglichen |
+| 9 | Wetter | Keine | Ja (Android) |
+| 10 | Horoskop | Keine | Ja (Android) |
+| 11 | Schlaf und Schnarchen | Keine | Ja |
+| 12 | Oberflächensprachen | 39 Sprach- und Regionsvarianten in der App | Nicht verglichen |
+| 13 | Akkuansatz | Vermeidet Arbeit zusätzlicher Online-Dienste; keine garantierte Ersparnis | Kein kontrollierter Akkuvergleich behauptet |
 
-## Laden Sie den kostenlosen Wecker herunter
+2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
 
-| Plattform | Offizieller Download |
-|---|---|
-| iPhone und iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+Größenbelege vom 19.09.2026 aus dem US-Apple-Katalog: Noler 11.506.688 Byte (11,5 MB), Alarmy 237.476.864 Byte (237,5 MB), also ungefähr das Größenverhältnis 1:20. Gemeint ist die Paketgröße, nicht der Arbeitsspeicher. Die Android-Angabe 5,6 MB bezeichnet Nolers hochgeladenes App Bundle. Download- und Installationsgröße variieren durch gerätespezifische Auslieferung. Die 39 Varianten stammen aus Nolers Sprachauswahl; Alarmys Sprachumfang wird nicht gleichgesetzt. Wetter und Horoskop sind für Alarmy auf Android belegt. Akkuverbrauch hängt von Gerät, Einstellungen und aktivierten Funktionen ab.
 
-[Vollständige Beweise und Alarmy-Vergleich](README.md) · [Datenschutzrichtlinie](https://noler.com/privacy) · [Unterstützung](https://noler.com/support)
+[Vollständige Belege und Vergleich auf Englisch](README.md)
 
----
+Quellen: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · Horoskop](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
 
-**Bei diesem Repository handelt es sich um eine Produktinformationsseite, nicht um eine Open-Source-Distribution. Der Quellcode der Anwendung ist proprietär.**
+Funktionen und Paketgrößen können sich ändern. Alarmy gehört seinem jeweiligen Inhaber; dieses Projekt ist weder mit Alarmy oder DelightRoom verbunden noch von ihnen empfohlen.
 
-<!-- Locale: de. Generated from scripts/generate-locales.mjs. -->
+[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+
+[Alle Sprachen und Regionen](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+
+Dieses Repository enthält Produktinformationen. Der proprietäre Quellcode der App wird hier nicht veröffentlicht. Die mitgelieferte Sprach-Engine Flite ist Open Source.
+
+<!-- Locale: de. Editorial proposal; no auto-translation. -->

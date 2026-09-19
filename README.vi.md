@@ -1,44 +1,62 @@
+# Báo thức không quảng cáo
+
+## Báo thức bằng giọng nói, không quảng cáo và không cần mạng
+
 <div align="center">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Đồng hồ báo thức Rust miễn phí - Không có quảng cáo, không theo dõi, không Bloat">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Báo thức bằng giọng nói, không quảng cáo và không cần mạng">
 
-# Đồng hồ báo thức Rust miễn phí - Không có quảng cáo, không theo dõi, không Bloat
-
-### A báo thức nói chuyện ngoại tuyến nhẹ dành cho iPhone, iPad và Android.
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
 </div>
 
-## Hãy nghe lý do tại sao báo thức đổ chuông
+Nghe ngay lý do chuông reo. Noler đọc tên báo thức và giữ dữ liệu trên thiết bị. Dùng báo thức không cần mạng, tài khoản hay gói đăng ký.
 
-Đừng thức dậy trước một tiếng chuông vô nghĩa. Noler nói nhãn bạn đã viết, chẳng hạn như “Chúng ta đi học thôi”, “Lấy thuốc đi” hoặc “Ra sân bay”. Bạn nghe thấy mục đích ngay lập tức, ngay cả khi bạn đang buồn ngủ.
+Bắt đầu buổi sáng với một lời nhắc rõ ràng. Đặt tên báo thức là “Đến giờ đi làm” hoặc “Ra sân bay”, Noler sẽ đọc bằng giọng nói trên thiết bị. Một ứng dụng báo thức gọn nhẹ cho giờ thức dậy và sinh hoạt hằng ngày.
 
-## Tại sao chọn cảnh báo Rust này?
+Đặt báo thức một lần hoặc lặp lại vào những ngày bạn chọn. Xem ngay báo thức tiếp theo. Nút lớn giúp báo lại hoặc dừng dễ dàng khi còn buồn ngủ. Nếu không dùng được giọng nói, có âm báo làm phương án dự phòng.
 
-- Không có quảng cáo, không đăng ký, không mua hàng trong ứng dụng, không tài khoản, không phân tích và không theo dõi hành vi.
-- Việc sử dụng cảnh báo thông thường hoàn toàn ngoại tuyến. Báo thức, nhãn, cài đặt, giọng nói và lập lịch vẫn ở trên thiết bị của bạn mà không cần Wi-Fi hoặc dữ liệu di động.
-- Không có thời tiết, tử vi, tin tức, theo dõi giấc ngủ, ghi âm tiếng ngáy, quảng cáo hoặc khối lượng công việc đồng bộ hóa trên đám mây chạy sau báo thức của bạn.
+Các thao tác báo thức thông thường hoàn toàn ngoại tuyến, không cần Wi-Fi hay dữ liệu di động. Lịch, giọng nói, bản ghi, cài đặt và tệp đính kèm ở trên thiết bị. Không quảng cáo, phân tích sử dụng, theo dõi hành vi, tài khoản, đồng bộ đám mây, gói đăng ký hay mua trong ứng dụng.
 
-## Nhỏ và tập trung
+Tiết kiệm pin bắt đầu từ việc giảm tác vụ. Noler không có thời tiết, tử vi, quảng cáo, phân tích, đồng bộ đám mây hay nguồn nội dung trực tuyến chạy nền. Vì vậy tránh được lưu lượng mạng và xử lý của các dịch vụ đó. Mức tiêu thụ tùy thiết bị, cài đặt và cách dùng; không cam kết một mức tiết kiệm cố định.
 
-Gói iOS hiện tại là 11,5 MB so với 237,5 MB của Alarmy—khoảng nhỏ hơn 20 lần. Android App Bundle hiện tại của Noler được tải lên Google Play có dung lượng 5,6 MB.
+Phần lõi và giao diện dùng chung được xây dựng bằng Rust và Dioxus. Giao diện có 39 tùy chọn ngôn ngữ và khu vực. Không theo dõi giấc ngủ, ghi âm tiếng ngáy hay bảng tin.
 
-## Tiết kiệm pin là ưu tiên hàng đầu
+Chỉ trên Android, bộ máy mã nguồn mở Flite đi kèm cung cấp giọng tiếng Anh dự phòng nếu không có bộ máy giọng nói hệ thống dùng được. Giọng đọc phụ thuộc ngôn ngữ đã cài. Chế độ tùy chọn giữ ứng dụng hoạt động mặc định tắt và có thể dùng thêm pin.
 
-Trong thử nghiệm qua đêm trên cùng một điện thoại của chủ sở hữu, Noler đã sử dụng khoảng 3% pin so với mức tiêu hao qua đêm là 10% của Alarmy—thấp hơn khoảng 3 lần. Các kết quả khác nhau tùy theo thiết bị và cài đặt, nhưng Noler tránh được công việc kết nối mạng và chạy nền mà các tính năng bổ sung đó yêu cầu.
+Các trang trực tuyến trong Cài đặt, như Điều khoản và Quyền riêng tư, chỉ tải khi bạn chủ động mở.
 
-## 39 ngôn ngữ giao diện và 24 lựa chọn giọng nói cảnh báo
+## Noler và Alarmy: ưu tiên khác nhau
 
-Ứng dụng này cung cấp 39 lựa chọn ngôn ngữ giao diện người dùng trên 32 ngôn ngữ riêng biệt. Bạn có thể đọc nhãn cảnh báo bằng 24 lựa chọn ngôn ngữ giọng nói có sẵn trên thiết bị.
+| # | Noler và Alarmy: ưu tiên khác nhau | Báo thức không quảng cáo | Alarmy |
+|---|---|---|---|
+| 1 | Mục đích | Đồng hồ tập trung vào báo thức | Nhiều tính năng thức dậy, giấc ngủ và sinh hoạt buổi sáng hơn |
+| 2 | Đọc tên báo thức | Đọc tên báo thức do bạn đặt | Xem trang cửa hàng hiện tại; không so sánh ở đây |
+| 3 | Công nghệ | Rust + Dioxus; cầu nối gốc Swift/Kotlin | Chưa công bố đầy đủ bộ công nghệ sản phẩm hiện tại |
+| 4 | Gói iOS | 11.5 MB (≈1/20) | 237.5 MB |
+| 5 | Bản tải lên Android | App Bundle tải lên 5,6 MB | Không có một kích thước công bố chung cho mọi thiết bị |
+| 6 | Quảng cáo | Không | Có |
+| 7 | Mua hàng và đăng ký | Không | Mua trong ứng dụng và đăng ký cao cấp |
+| 8 | Dùng bình thường ngoại tuyến | Báo thức thông thường hoạt động ngoại tuyến | Tính năng trực tuyến cần mạng; báo thức cơ bản ngoại tuyến không được so sánh |
+| 9 | Thời tiết | Không | Có (Android) |
+| 10 | Tử vi | Không | Có (Android) |
+| 11 | Giấc ngủ và ngáy | Không | Có |
+| 12 | Tùy chọn giao diện | 39 lựa chọn ngôn ngữ và khu vực trong ứng dụng | Không so sánh |
+| 13 | Cách dùng pin | Tránh tác vụ của dịch vụ trực tuyến bổ sung; không bảo đảm tiết kiệm | Không tuyên bố có phép so sánh pin có kiểm soát |
 
-## Tải xuống đồng hồ báo thức miễn phí
+2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
 
-| Platform | Tải xuống chính thức |
-|---|---|
-| iPhone và iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+Gói iOS trong danh mục Apple Mỹ ngày 19 tháng 9 năm 2026 có tỷ lệ kích thước khoảng 1:20, không phải mức dùng RAM. Số 5,6 MB Android là App Bundle tải lên; phân phối theo phần khiến kích thước tải và cài đặt thay đổi theo thiết bị, không phải cam kết kích thước cài đặt. 39 lựa chọn được đếm từ menu ngôn ngữ Noler, không có phép đếm tương đương cho Alarmy. Bằng chứng thời tiết và tử vi áp dụng cho Android. Pin phụ thuộc thiết bị, cài đặt và tính năng đang bật.
 
-[Bằng chứng đầy đủ và so sánh Alarmy](README.md) · [Chính sách bảo mật](https://noler.com/privacy) · [Hỗ trợ](https://noler.com/support)
+[Bằng chứng đầy đủ và so sánh chi tiết bằng tiếng Anh](README.md)
 
----
+Nguồn: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · Tử vi](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
 
-**Kho lưu trữ này là trang thông tin sản phẩm, không phải là bản phân phối nguồn mở. Mã nguồn ứng dụng là độc quyền.**
+Tính năng và kích thước có thể thay đổi. Alarmy thuộc chủ sở hữu tương ứng; dự án này không liên kết hay được Alarmy hoặc DelightRoom chứng thực.
 
-<!-- Locale: vi. Generated from scripts/generate-locales.mjs. -->
+[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+
+[Tất cả ngôn ngữ và khu vực](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+
+Kho này cung cấp thông tin sản phẩm, không công bố mã nguồn độc quyền của ứng dụng. Bộ máy giọng nói Flite đi kèm là mã nguồn mở.
+
+<!-- Locale: vi. Editorial proposal; no auto-translation. -->

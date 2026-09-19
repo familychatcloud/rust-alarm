@@ -1,44 +1,62 @@
+# Wekker zonder reclame
+
+## Sprekende wekker zonder reclame, ook offline
+
 <div align="center">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Gratis Rust-wekker - geen advertenties, geen tracking, geen opgeblazen gevoel">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Sprekende wekker zonder reclame, ook offline">
 
-# Gratis Rust-wekker - geen advertenties, geen tracking, geen opgeblazen gevoel
-
-### Een lichtgewicht offline pratend alarm voor iPhone, iPad en Android.
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
 </div>
 
-## Hoor waarom het alarm afgaat
+Hoor meteen waarom je wekker gaat. Noler leest je alarmnaam voor en bewaart je gegevens op je apparaat. Zonder reclame, account of abonnement.
 
-Word niet wakker met een betekenisloos belsignaal. Noler spreekt het etiket uit dat je hebt geschreven, zoals 'Laten we naar school gaan', 'Neem je medicijnen mee' of 'Vertrek naar het vliegveld'. Je hoort het doel onmiddellijk, zelfs als je half slaapt.
+Een wekker met een duidelijke boodschap. Geef je alarm een naam zoals “Tijd voor werk” of “Naar het vliegveld” en Noler leest die voor met de spraakfunctie op je apparaat. Een lichte, sprekende wekker voor je dagelijkse routine.
 
-## Waarom kiezen voor dit Rust-alarm?
+Stel een eenmalig alarm in of herhaal het op gekozen weekdagen. Bekijk je volgende alarm in één oogopslag. Grote knoppen maken snoozen en stoppen gemakkelijk. Is spraak niet beschikbaar, dan is er een alarmgeluid als alternatief.
 
-- Geen advertenties, geen abonnement, geen in-app-aankoop, geen account, geen analyses en geen gedragsregistratie.
-- Normaal alarmgebruik is volledig offline. Wekkers, labels, instellingen, spraak en planning blijven op uw apparaat staan ​​zonder Wi-Fi of mobiele data.
-- Geen weer-, horoscoop-, nieuws-, slaapregistratie-, snurkopname-, reclame- of cloudsynchronisatiewerklast achter uw alarm.
+Normaal alarmgebruik werkt volledig offline, zonder wifi of mobiele data. Planning, spraak, alarmgegevens, instellingen en bijlagen blijven op je apparaat. Geen reclame, gebruiksanalyses, gedragstracking, account, cloudsynchronisatie, abonnementen of in-app aankopen.
 
-## Klein en gefocust
+Batterij besparen begint met minder taken. Noler heeft geen weer- of horoscoopfeeds, reclame, analyses, cloudsynchronisatie of andere online feeds op de achtergrond. Zo vermijdt de app het bijbehorende netwerk- en rekenwerk. Het verbruik hangt af van je apparaat, instellingen en gebruik; een vaste besparing is niet gegarandeerd.
 
-Het huidige iOS-pakket is 11,5 MB versus Alarmy's 237,5 MB, ongeveer 20 keer kleiner. De huidige Android App Bundle van Noler, geüpload naar Google Play, is 5,6 MB groot.
+Rust en Dioxus vormen de gedeelde appkern en interface, met 39 taal- en regiovarianten. Geen slaapregistratie, snurkopnamen of nieuwsfeeds.
 
-## Batterijbesparing is een prioriteit
+Alleen op Android biedt de meegeleverde opensource-engine Flite een Engelse reservestem als er geen bruikbare systeemspraak beschikbaar is. Stemmen hangen af van geïnstalleerde talen. De optionele modus om de app actief te houden staat standaard uit en kan meer batterij gebruiken.
 
-In de nachtelijke test van de eigenaar op dezelfde telefoon gebruikte Noler ongeveer 3% batterij versus Alarmy's 10% - ongeveer drie keer minder nachtelijk verbruik. De resultaten variëren per apparaat en instellingen, maar Noler vermijdt het netwerk- en achtergrondwerk dat deze extra functies vereisen.
+Online pagina’s bij Instellingen, zoals voorwaarden en privacy, laden alleen wanneer je ze opent.
 
-## 39 interface-landinstellingen en 24 alarmstemkeuzes
+## Noler en Alarmy: andere prioriteiten
 
-De app biedt 39 UI-landinstellingen in 32 verschillende talen. Alarmlabels kunnen worden uitgesproken met behulp van 24 gesproken taalkeuzes die beschikbaar zijn op het apparaat.
+| # | Noler en Alarmy: andere prioriteiten | Wekker zonder reclame | Alarmy |
+|---|---|---|---|
+| 1 | Doel | Een gerichte wekker | Meer functies voor wekken, slapen en ochtendroutines |
+| 2 | Alarmnamen voorlezen | Leest je gekozen alarmnaam voor | Bekijk de huidige vermelding; hier niet vergeleken |
+| 3 | Techniek | Rust + Dioxus; native Swift/Kotlin-bruggen | Volledige huidige productiestack niet openbaar |
+| 4 | iOS-pakket | 11.5 MB (≈1/20) | 237.5 MB |
+| 5 | Android-upload | Geüpload App Bundle van 5,6 MB | Geen universele grootte voor elk apparaat gepubliceerd |
+| 6 | Reclame | Geen | Ja |
+| 7 | Aankopen en abonnement | Geen | In-app aankopen en premiumabonnement |
+| 8 | Normaal offline gebruik | Normaal alarmgebruik werkt offline | Online extra’s hebben internet nodig; basisalarmen offline niet vergeleken |
+| 9 | Weer | Geen | Ja (Android) |
+| 10 | Horoscoop | Geen | Ja (Android) |
+| 11 | Slaap en snurken | Geen | Ja |
+| 12 | Interfacetalen | 39 taal- en regiokeuzes in de app | Niet vergeleken |
+| 13 | Batterijaanpak | Vermijdt extra onlinedienstwerk; geen gegarandeerde besparing | Geen gecontroleerde batterijvergelijking geclaimd |
 
-## Download de gratis wekker
+2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
 
-| Platform | Officiële download |
-|---|---|
-| iPhone en iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+De iOS-pakketten in de Amerikaanse Apple-catalogus op 19 september 2026 hebben ongeveer een grootteverhouding van 1:20. Dit is geen RAM-meting. De Android-waarde 5,6 MB is het geüploade App Bundle; door gesplitste levering verschillen download en installatie per apparaat. De 39 keuzes komen uit Nolers taalmenu, zonder gelijkwaardige telling voor Alarmy. Weer en horoscoop zijn voor Android gedocumenteerd. Batterijgebruik hangt af van apparaat, instellingen en ingeschakelde functies.
 
-[Volledig bewijs en Alarmy-vergelijking](README.md) · [Privacybeleid](https://noler.com/privacy) · [Ondersteuning](https://noler.com/support)
+[Volledig bewijs en uitgebreide vergelijking in het Engels](README.md)
 
----
+Bronnen: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · Horoscoop](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
 
-**Deze repository is een productinformatiepagina, geen open-sourcedistributie. De broncode van de applicatie is bedrijfseigen.**
+Functies en groottes kunnen veranderen. Alarmy is van de betreffende eigenaar; dit project is niet verbonden met of goedgekeurd door Alarmy of DelightRoom.
 
-<!-- Locale: nl. Generated from scripts/generate-locales.mjs. -->
+[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+
+[Alle talen en regio’s](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+
+Deze repository bevat productinformatie, niet de gesloten broncode van de app. De meegeleverde Flite-spraakengine is open source.
+
+<!-- Locale: nl. Editorial proposal; no auto-translation. -->

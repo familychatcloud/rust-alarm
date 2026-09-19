@@ -1,44 +1,62 @@
+# Budík bez reklam a internetu
+
+## Mluvící budík bez reklam pro každodenní vstávání
+
 <div align="center">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Zdarma Rust budík – žádné reklamy, žádné sledování, žádné nadýmání">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Mluvící budík bez reklam pro každodenní vstávání">
 
-# Zdarma Rust budík – žádné reklamy, žádné sledování, žádné nadýmání
-
-### Lehký offline mluvící budík pro iPhone, iPad a Android.
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
 </div>
 
-## Poslechněte si, proč budík zvoní
+Uslyšíte, proč budík zvoní. Noler přečte název budíku a uchová údaje ve vašem zařízení. Bez reklam, účtu a předplatného.
 
-Nebuďte na nic neříkající zvonění. Noler vyslovuje štítek, který jste napsali, například „Pojďme do školy“, „Vezmi si léky“ nebo „Odejdi na letiště“. Účel slyšíte okamžitě, i když jste v polospánku.
+Probuďte se s užitečnou zprávou. Pojmenujte budík „Čas do práce“ nebo „Odjezd na letiště“ a Noler název přečte pomocí hlasu ve vašem zařízení. Lehký mluvící budík pro každodenní plánování.
 
-## Proč si vybrat tento alarm Rust?
+Nastavte jednorázový budík nebo opakování ve vybrané dny týdne. Další budík uvidíte na první pohled. Velká tlačítka usnadní odložení i vypnutí. Pokud nelze použít řeč, slouží jako záloha zvuk budíku.
 
-- Žádné reklamy, žádné předplatné, žádný nákup v aplikaci, žádný účet, žádné analýzy a žádné sledování chování.
-- Normální použití budíku je plně offline. Budíky, štítky, nastavení, řeč a plánování zůstanou na vašem zařízení bez Wi-Fi nebo mobilních dat.
-- Za vaším budíkem neběží žádné počasí, horoskop, zprávy, sledování spánku, nahrávání chrápání, reklama ani synchronizace s cloudem.
+Běžné používání funguje zcela offline, bez Wi-Fi a mobilních dat. Časy, řeč, záznamy budíků, nastavení a přílohy zůstávají v zařízení. Bez reklam, analytiky, sledování chování, účtu, cloudové synchronizace, předplatného a nákupů v aplikaci.
 
-## Malý a soustředěný
+Úspora baterie začíná omezením zbytečné práce. Noler nemá počasí, horoskopy, reklamy, analytiku, cloudovou synchronizaci ani jiné online kanály na pozadí. Odpadá tak jejich síťový provoz a zpracování. Spotřeba závisí na zařízení, nastavení a používání; konkrétní úspora není zaručena.
 
-Aktuální balíček pro iOS má 11,5 MB oproti 237,5 MB Alarmy – asi 20krát menší. Aktuální balíček Android App Bundle Noler nahraný na Google Play má 5,6 MB.
+Společné jádro a rozhraní aplikace využívají Rust a Dioxus. Rozhraní nabízí 39 jazykových a regionálních variant. Bez sledování spánku, nahrávání chrápání a zpráv.
 
-## Úspora baterie je prioritou
+Pouze na Androidu poskytuje přibalený open-source modul Flite anglický záložní hlas, pokud není použitelná systémová syntéza řeči. Hlasy závisejí na nainstalovaných jazycích. Volitelný režim udržování aplikace v chodu je ve výchozím stavu vypnutý a může zvýšit spotřebu baterie.
 
-V testu majitele stejného telefonu přes noc spotřeboval Noler přibližně 3 % baterie oproti 10 % Alarmy – zhruba 3krát nižší spotřeba přes noc. Výsledky se liší podle zařízení a nastavení, ale Noler se vyhýbá práci v síti a na pozadí, které tyto dodatečné funkce vyžadují.
+Online stránky v nastavení, například podmínky a soukromí, se načtou až po jejich otevření.
 
-## 39 lokalit rozhraní a 24 voleb hlasových alarmů
+## Noler a Alarmy: jiné priority
 
-Aplikace nabízí 39 možností nastavení uživatelského rozhraní ve 32 různých jazycích. Poplachové štítky lze vyslovit pomocí 24 voleb jazyka hlasu dostupných na zařízení.
+| # | Noler a Alarmy: jiné priority | Budík bez reklam a internetu | Alarmy |
+|---|---|---|---|
+| 1 | Zaměření | Budík zaměřený na buzení | Více funkcí buzení, spánku a ranní rutiny |
+| 2 | Čtení názvů budíků | Přečte vámi zvolený název budíku | Viz aktuální popis; zde neporovnáváno |
+| 3 | Technologie | Rust + Dioxus; nativní můstky Swift/Kotlin | Úplná současná technologická skladba není veřejná |
+| 4 | Balíček iOS | 11.5 MB (≈1/20) | 237.5 MB |
+| 5 | Nahraný Android balíček | Nahraný App Bundle 5,6 MB | Není zveřejněna jedna velikost pro všechna zařízení |
+| 6 | Reklamy | Ne | Ano |
+| 7 | Nákupy a předplatné | Ne | Nákupy v aplikaci a prémiové předplatné |
+| 8 | Běžné použití offline | Běžné budíky fungují offline | Online doplňky potřebují síť; základní offline budíky neporovnávány |
+| 9 | Počasí | Ne | Ano (Android) |
+| 10 | Horoskop | Ne | Ano (Android) |
+| 11 | Spánek a chrápání | Ne | Ano |
+| 12 | Varianty rozhraní | 39 jazykových a regionálních variant v aplikaci | Neporovnáváno |
+| 13 | Přístup k baterii | Vynechává práci dalších online služeb; bez zaručené úspory | Netvrdíme kontrolované srovnání baterie |
 
-## Stáhněte si zdarma budík
+2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
 
-| Platforma | Oficiální stažení |
-|---|---|
-| iPhone a iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+Balíčky iOS v americkém katalogu Apple k 19. září 2026 mají přibližný poměr velikostí 1:20. Nejde o paměť RAM. Android údaj 5,6 MB označuje nahraný App Bundle; dělené doručování mění staženou a instalační velikost podle zařízení. Počet 39 pochází z nabídky jazyků Noleru, bez rovnocenného srovnání s Alarmy. Počasí a horoskop jsou doloženy pro Android. Spotřeba závisí na zařízení, nastavení a aktivních funkcích.
 
-[Úplné důkazy a srovnání Alarmy](README.md) · [Zásady ochrany osobních údajů](https://noler.com/privacy) · [Podpora](https://noler.com/support)
+[Úplné podklady a podrobné srovnání anglicky](README.md)
 
----
+Zdroje: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · Horoskop](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
 
-**Toto úložiště je stránka s informacemi o produktu, nikoli distribuce s otevřeným zdrojovým kódem. Zdrojový kód aplikace je proprietární.**
+Funkce a velikosti se mohou měnit. Alarmy patří svému vlastníkovi; projekt není propojen s Alarmy ani DelightRoom a nemá jejich podporu.
 
-<!-- Locale: cs. Generated from scripts/generate-locales.mjs. -->
+[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+
+[Všechny jazyky a oblasti](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+
+Tento repozitář obsahuje informace o produktu, nikoli proprietární zdrojový kód aplikace. Přibalený hlasový modul Flite má otevřený zdrojový kód.
+
+<!-- Locale: cs. Editorial proposal; no auto-translation. -->

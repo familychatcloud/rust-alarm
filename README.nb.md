@@ -1,44 +1,62 @@
+# Vekkerklokke uten reklame
+
+## Snakkende vekkerklokke uten reklame, også uten nett
+
 <div align="center">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Gratis Rust vekkerklokke — ingen annonser, ingen sporing, ingen oppblåsthet">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Snakkende vekkerklokke uten reklame, også uten nett">
 
-# Gratis Rust vekkerklokke — ingen annonser, ingen sporing, ingen oppblåsthet
-
-### En lett, offline snakkende alarm for iPhone, iPad og Android.
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
 </div>
 
-## Hør hvorfor alarmen ringer
+Hør hva alarmen gjelder. Noler leser opp navnet du har valgt og lagrer dataene på enheten. Uten reklame, konto eller abonnement.
 
-Ikke våkn opp til en meningsløs ring. Noler sier etiketten du skrev, for eksempel "La oss gå til skolen", "Ta medisinen din" eller "Dra til flyplassen." Du hører hensikten umiddelbart, selv når du er halvsov.
+En vekkerklokke som forteller hvorfor den ringer. Gi alarmen et navn som «Tid for jobb» eller «Dra til flyplassen». Noler leser meldingen høyt med talefunksjonen på enheten, i en lett app for hverdagens alarmer.
 
-## Hvorfor velge denne Rust alarmen?
+Lag en engangsalarm eller gjenta den på valgte ukedager. Se neste alarm med et blikk. Store knapper gjør det lett å slumre eller stoppe. En alarmlyd er reserve hvis tale ikke kan brukes.
 
-- Ingen annonser, ingen abonnement, ingen kjøp i appen, ingen konto, ingen analyser og ingen atferdssporing.
-- Normal alarmbruk er helt offline. Alarmer, etiketter, innstillinger, tale og planlegging forblir på enheten din uten Wi-Fi eller mobildata.
-- Ingen vær, horoskop, nyheter, søvnsporing, snorkeopptak, reklame eller skysynkronisering kjører bak alarmen.
+Vanlig alarmbruk fungerer helt offline uten wifi eller mobildata. Tider, tale, alarmhistorikk, innstillinger og vedlegg blir på enheten. Ingen reklame, bruksanalyse, atferdssporing, konto, skysynkronisering, abonnement eller kjøp i appen.
 
-## Liten og fokusert
+Batterihensyn begynner med færre oppgaver. Noler har ingen vær- eller horoskopstrømmer, reklame, analyse, skysynkronisering eller andre nettstrømmer i bakgrunnen. Dermed unngås nettverkstrafikken og behandlingen deres. Forbruket avhenger av enhet, innstillinger og bruk; ingen fast besparelse loves.
 
-Den nåværende iOS-pakken er 11,5 MB mot Alarmys 237,5 MB – omtrent 20 ganger mindre. Noler sin nåværende Android App Bundle lastet opp til Google Play er 5,6 MB.
+Felles appkjerne og grensesnitt er laget med Rust og Dioxus. Velg mellom 39 språk- og regionvarianter. Ingen søvnsporing, snorkeopptak eller nyhetsstrøm.
 
-## Batterisparing er en prioritet
+Bare på Android gir den innebygde Flite-motoren med åpen kildekode en engelsk reservestemme dersom systemets tale ikke kan brukes. Stemmer avhenger av installerte språk. Den valgfrie modusen som holder appen aktiv, er av som standard og kan bruke mer batteri.
 
-I eierens test over natten på samme telefon brukte Noler omtrent 3 % batteri mot Alarmys 10 % – omtrent 3 ganger lavere forbruk over natten. Resultatene varierer etter enhet og innstillinger, men Noler unngår nettverks- og bakgrunnsarbeidet de ekstra funksjonene krever.
+Nettsider i innstillingene, som vilkår og personvern, lastes bare når du åpner dem.
 
-## 39 grensesnittlokaliteter og 24 alarm-stemmevalg
+## Noler og Alarmy: ulike prioriteringer
 
-Appen tilbyr 39 UI-lokalitetsvalg på tvers av 32 forskjellige språk. Alarmetiketter kan leses opp ved hjelp av 24 talespråkvalg tilgjengelig på enheten.
+| # | Noler og Alarmy: ulike prioriteringer | Vekkerklokke uten reklame | Alarmy |
+|---|---|---|---|
+| 1 | Formål | En fokusert vekkerklokke | Flere funksjoner for vekking, søvn og morgenrutiner |
+| 2 | Oppleste alarmnavn | Leser opp alarmnavnet du velger | Se den aktuelle butikksiden; ikke sammenlignet her |
+| 3 | Teknologi | Rust + Dioxus; native Swift/Kotlin-broer | Hele dagens produksjonsstack er ikke offentlig |
+| 4 | iOS-pakke | 11.5 MB (≈1/20) | 237.5 MB |
+| 5 | Android-opplasting | Opplastet App Bundle på 5,6 MB | Ingen felles pakkestørrelse for alle enheter |
+| 6 | Reklame | Ingen | Ja |
+| 7 | Kjøp og abonnement | Ingen | Kjøp i appen og premiumabonnement |
+| 8 | Vanlig offlinebruk | Vanlig alarmbruk fungerer offline | Nettbaserte tillegg trenger tilkobling; grunnalarmer offline ikke sammenlignet |
+| 9 | Vær | Ingen | Ja (Android) |
+| 10 | Horoskop | Ingen | Ja (Android) |
+| 11 | Søvn og snorking | Ingen | Ja |
+| 12 | Grensesnittspråk | 39 språk- og regionvalg i appen | Ikke sammenlignet |
+| 13 | Batteritilnærming | Unngår arbeidet til ekstra nettjenester; ingen garantert besparelse | Ingen kontrollert batterisammenligning hevdes |
 
-## Last ned gratis vekkerklokke
+2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
 
-| Plattform | Offisiell nedlasting |
-|---|---|
-| iPhone og iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+iOS-pakkene i Apples amerikanske katalog 19. september 2026 har omtrent størrelsesforholdet 1:20. Dette er ikke RAM-bruk. Android-tallet 5,6 MB gjelder opplastet App Bundle; oppdelt levering gjør at nedlasting og installasjon varierer etter enhet. De 39 valgene kommer fra Nolers språkvelger, uten tilsvarende sammenligning med Alarmy. Vær og horoskop er dokumentert på Android. Batteribruk avhenger av enhet, innstillinger og aktive funksjoner.
 
-[Full bevis og Alarmy sammenligning](README.md) · [Personvernerklæring](https://noler.com/privacy) · [Støtte](https://noler.com/support)
+[Full dokumentasjon og detaljert sammenligning på engelsk](README.md)
 
----
+Kilder: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · Horoskop](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
 
-**Dette depotet er en produktinformasjonsside, ikke en åpen kildekodedistribusjon. Applikasjonskildekoden er proprietær.**
+Funksjoner og pakkestørrelser kan endres. Alarmy tilhører sin eier; prosjektet er ikke tilknyttet eller godkjent av Alarmy eller DelightRoom.
 
-<!-- Locale: nb. Generated from scripts/generate-locales.mjs. -->
+[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+
+[Alle språk og regioner](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+
+Dette kodelageret inneholder produktinformasjon. Appens proprietære kildekode publiseres ikke her. Talemotoren Flite har åpen kildekode.
+
+<!-- Locale: nb. Editorial proposal; no auto-translation. -->

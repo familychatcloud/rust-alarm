@@ -1,44 +1,62 @@
+# Réveil sans pub, hors ligne
+
+## Réveil vocal privé pour vos matins, sans publicité
+
 <div align="center">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Réveil Rust gratuit — Pas de publicité, pas de suivi, pas de ballonnement">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Réveil vocal privé pour vos matins, sans publicité">
 
-# Réveil Rust gratuit — Pas de publicité, pas de suivi, pas de ballonnement
-
-### Une alarme parlante hors ligne légère pour iPhone, iPad et Android.
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
 </div>
 
-## Écoutez pourquoi l'alarme sonne
+Partez la journée avec un rappel clair. Noler prononce le nom de votre alarme et conserve vos données sur votre appareil. Sans publicité, compte ou abonnement.
 
-Ne vous réveillez pas avec une sonnerie dénuée de sens. Noler prononce l'étiquette que vous avez écrite, telle que « Allons à l'école », « Prends tes médicaments » ou « Partons pour l'aéroport ». Vous entendez immédiatement le but, même lorsque vous êtes à moitié endormi.
+Pour le travail, l’école ou un départ matinal, donnez un message à votre réveil. Noler est une alarme vocale légère qui lit le nom que vous avez choisi avec la synthèse vocale de votre appareil.
 
-## Pourquoi choisir cette alarme Rust ?
+Réglez une alarme unique ou faites-la répéter les jours voulus. Voyez la prochaine alarme d’un coup d’œil. Les grands boutons facilitent le report et l’arrêt au réveil. Si la voix n’est pas disponible, une sonnerie sert de solution de rechange.
 
-- Pas de publicité, pas d'abonnement, pas d'achat intégré, pas de compte, pas d'analyse et pas de suivi comportemental.
-- L'utilisation normale de l'alarme est entièrement hors ligne. Les alarmes, les étiquettes, les paramètres, la parole et la planification restent sur votre appareil sans Wi-Fi ni données mobiles.
-- Aucune météo, horoscope, actualités, suivi du sommeil, enregistrement des ronflements, publicité ou charge de travail de synchronisation dans le cloud ne s'exécutent derrière votre alarme.
+L’utilisation courante du réveil fonctionne hors ligne, sans Wi-Fi ni données mobiles. Vos alarmes, réglages, pièces jointes et données vocales restent sur votre appareil. Aucune publicité, analyse d’utilisation, suivi comportemental, création de compte, synchronisation infonuagique, abonnement ou achat intégré.
 
-## Petit et concentré
+Moins de tâches pour ménager la batterie : Noler n’ajoute ni météo, ni horoscope, ni publicité, ni analyses, ni synchronisation infonuagique, ni flux en ligne en arrière-plan. Il évite le trafic réseau et les traitements associés. La consommation varie selon l’appareil, les réglages et les alarmes ; aucune économie précise n’est garantie.
 
-Le package iOS actuel fait 11,5 Mo contre 237,5 Mo pour Alarmy, soit environ 20 fois plus petit. L'ensemble d'applications Android actuel de Noler téléchargé sur Google Play fait 5,6 Mo.
+Rust et Dioxus servent de base commune au cœur de l’application et à son interface. Celle-ci offre 39 variantes linguistiques et régionales. Aucun suivi du sommeil, enregistrement des ronflements ou fil de nouvelles.
 
-## L'économie de batterie est une priorité
+Sur Android seulement, le moteur à code source ouvert Flite fournit une voix anglaise de secours si la synthèse vocale du système est inutilisable. Les voix dépendent des langues installées. Le mode facultatif de maintien en activité est désactivé au départ et peut augmenter la consommation.
 
-Lors du test nocturne du même téléphone effectué par le propriétaire, Noler a utilisé environ 3 % de batterie contre 10 % pour Alarmy, soit environ 3 fois moins de consommation pendant la nuit. Les résultats varient selon l'appareil et les paramètres, mais Noler évite le travail de mise en réseau et en arrière-plan requis par ces fonctionnalités supplémentaires.
+Les pages Web des réglages, dont les conditions et la confidentialité, se chargent seulement lorsque vous les ouvrez.
 
-## 39 paramètres régionaux d'interface et 24 choix de voix d'alarme
+## Noler et Alarmy : deux façons d’aborder le réveil
 
-L'application propose 39 choix de paramètres régionaux d'interface utilisateur dans 32 langues distinctes. Les étiquettes d'alarme peuvent être prononcées à l'aide de 24 choix de langues vocales disponibles sur l'appareil.
+| # | Noler et Alarmy : deux façons d’aborder le réveil | Réveil sans pub, hors ligne | Alarmy |
+|---|---|---|---|
+| 1 | But | Un réveil qui se concentre sur les alarmes | Des fonctions plus étendues pour le réveil et le sommeil |
+| 2 | Nom de l’alarme prononcé | Prononce le nom choisi pour l’alarme | Consulter la fiche actuelle ; non comparé ici |
+| 3 | Technologies | Rust + Dioxus ; ponts natifs Swift/Kotlin | Ensemble des technologies actuelles non divulgué |
+| 4 | Taille du paquet iOS | 11.5 MB (≈1/20) | 237.5 MB |
+| 5 | Envoi Android | App Bundle envoyé de 5,6 Mo | Pas de taille unique indépendante de l’appareil |
+| 6 | Publicité | Aucune | Oui |
+| 7 | Achats et abonnement | Aucune | Achats intégrés et abonnement premium |
+| 8 | Utilisation courante hors ligne | Les alarmes courantes fonctionnent hors ligne | Les fonctions connectées demandent Internet ; alarmes de base hors ligne non comparées |
+| 9 | Météo | Aucune | Oui (Android) |
+| 10 | Horoscope | Aucune | Oui (Android) |
+| 11 | Sommeil et ronflements | Aucune | Oui |
+| 12 | Choix d’interface | 39 variantes de langue et de région dans l’appli | Non comparé |
+| 13 | Gestion de la batterie | Évite les tâches de services en ligne supplémentaires ; économie non garantie | Aucune mesure comparative contrôlée de la batterie |
 
-## Téléchargez le réveil gratuit
+2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
 
-| Plate-forme | Téléchargement officiel |
-|---|---|
-| iPhone et iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+Données du catalogue Apple américain du 19 septembre 2026 : Noler 11 506 688 octets (11,5 Mo), Alarmy 237 476 864 octets (237,5 Mo), soit un rapport d’environ 1 à 20. Ce sont des tailles de paquets, pas de mémoire vive. Les 5,6 Mo Android correspondent à l’App Bundle envoyé ; la livraison par composants fait varier les tailles téléchargées et installées selon l’appareil. Les 39 choix viennent du sélecteur de Noler, sans mesure équivalente pour Alarmy. La météo et l’horoscope sont documentés sur Android. La consommation dépend de l’appareil, des réglages et des fonctions activées.
 
-[Preuves complètes et comparaison Alarmy](README.md) · [Politique de confidentialité](https://noler.com/privacy) · [Soutien](https://noler.com/support)
+[Documentation complète et comparaison en anglais](README.md)
 
----
+Sources: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · Horoscope](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
 
-**Ce référentiel est une page d'informations sur le produit, pas une distribution open source. Le code source de l'application est propriétaire.**
+Les fonctions et les tailles peuvent changer. Alarmy est la marque de son propriétaire ; ce projet n’est pas affilié à Alarmy ou à DelightRoom et n’a pas leur approbation.
 
-<!-- Locale: fr-CA. Generated from scripts/generate-locales.mjs. -->
+[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+
+[Toutes les langues et régions](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+
+Ce dépôt contient des renseignements sur le produit. Le code de l’application est propriétaire et n’y est pas publié. Le moteur vocal Flite est à code source ouvert.
+
+<!-- Locale: fr-CA. Editorial proposal; no auto-translation. -->
