@@ -1,5 +1,5 @@
 <div align="center">
-  <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a></p>
+  <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="LANGUAGES.md">All 39 locales</a></p>
 
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="160" alt="Alarm: No Ads, Zero Data Usage app icon">
 
@@ -11,8 +11,8 @@
 
 **Do not wake up to a meaningless ring. Wake up hearing why:** “Let's go to school.” “Take your medicine.” “Leave for the airport.”
 
-<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" height="62" alt="Download Alarm: No Ads, Zero Data Usage on the App Store"></a>
-<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="92" alt="Get Alarm: No Ads, Zero Data Usage on Google Play"></a>
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="assets/app-store-badge.png" alt="Download Alarm: No Ads, Zero Data Usage on the App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" alt="Get Alarm: No Ads, Zero Data Usage on Google Play"></a>
 
 Free to download. No account. No subscription. No in-app purchase.
 
