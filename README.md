@@ -9,6 +9,8 @@
 
 **Your alarm should wake you up—not sell your attention, track your sleep, read your horoscope, or drain your battery.**
 
+**Do not wake up to a meaningless ring. Wake up hearing why:** “Let's go to school.” “Take your medicine.” “Leave for the airport.”
+
 <a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" height="62" alt="Download Alarm: No Ads, Zero Data Usage on the App Store"></a>
 <a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="92" alt="Get Alarm: No Ads, Zero Data Usage on Google Play"></a>
 
@@ -25,11 +27,25 @@ That is the point: it is an alarm, not a lifestyle portal disguised as one.
 
 There are no ads waiting after dismiss, no analytics watching how you use the app, no account to create, no cloud service to maintain, and no unrelated weather, news, horoscope, sleep-tracking, or snore-recording machinery running behind your alarm.
 
+## Hear the reason—not just the ringtone
+
+A normal alarm rings, but half-awake you may not remember what it is for. Noler speaks the label you wrote for that alarm:
+
+> “Let's go to school.”
+
+> “Take your medicine.”
+
+> “Leave now for the airport.”
+
+The message begins on-device when the alarm fires. You hear the purpose immediately instead of opening the app, reading a small label, or wondering why the phone is making noise. It is especially useful for school runs, medication, appointments, cooking, shift work, and reminders shared with family.
+
 ## Why choose this alarm instead of Alarmy?
 
 | What matters | Alarm: No Ads, Zero Data Usage | Alarmy |
 |---|---|---|
 | **Core philosophy** | A focused alarm clock that does the essential job | A broader sleep and morning-routine platform |
+| **Signature wake-up experience** | **Speaks the alarm's purpose aloud**—for example, “Let's go to school” instead of an unexplained ring | Focuses on loud alarms, wake-up missions, and sleep features |
+| **On-device speech safety** | System text-to-speech → bundled offline voice → system alarm-sound fallback | See Alarmy's current listing for its sound behavior |
 | **Built with Rust** | **Yes** — one lightweight Rust application for iOS and Android | Implementation technology is not publicly stated |
 | **iOS package size** | **11.5 MB** | **237.5 MB** |
 | **iOS size difference** | **About 20× smaller** | About 20× larger |
