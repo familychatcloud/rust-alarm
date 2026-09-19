@@ -10,7 +10,7 @@
 
 No te despiertes con un timbre sin sentido. Noler pronuncia la etiqueta que escribiste, como "Vamos a la escuela", "Toma tu medicamento" o "Vete al aeropuerto". Escuchas el propósito de inmediato, incluso cuando estás medio dormido.
 
-## ¿Por qué elegir Noler?
+## ¿Por qué elegir esta alarma Rust?
 
 - Sin anuncios, sin suscripción, sin compras dentro de la aplicación, sin cuenta, sin análisis y sin seguimiento de comportamiento.
 - El uso normal de la alarma está completamente fuera de línea. Las alarmas, etiquetas, configuraciones, voz y programación permanecen en su dispositivo sin Wi-Fi ni datos móviles.

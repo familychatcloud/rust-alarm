@@ -10,7 +10,7 @@
 
 Do not wake up to a meaningless ring. Noler speaks the label you wrote, such as “Let's go to school,” “Take your medicine,” or “Leave for the airport.” You hear the purpose immediately, even when you are half asleep.
 
-## Why choose Noler?
+## Why choose this Rust alarm?
 
 - No ads, no subscription, no in-app purchase, no account, no analytics, and no behavioral tracking.
 - Normal alarm use is fully offline. Alarms, labels, settings, speech, and scheduling stay on your device without Wi-Fi or mobile data.

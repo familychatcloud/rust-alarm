@@ -10,10 +10,10 @@
 
 Non svegliarti con uno squillo senza senso. Noler pronuncia l'etichetta che hai scritto, ad esempio "Andiamo a scuola", "Prendi la tua medicina" o "Partiamo per l'aeroporto". Senti immediatamente lo scopo, anche quando sei mezzo addormentato.
 
-## Perché scegliere Noler?
+## Perché scegliere questo allarme Rust?
 
 - Nessuna pubblicità, nessun abbonamento, nessun acquisto in-app, nessun account, nessuna analisi e nessun monitoraggio comportamentale.
-- L'uso normale della sveglia è completamente offline. Sveglie, etichette, impostazioni, voce e programmazione rimangono sul tuo dispositivo senza Wi-Fi o dati mobili.
+- L'utilizzo normale dell'allarme è completamente offline. Sveglie, etichette, impostazioni, voce e programmazione rimangono sul tuo dispositivo senza Wi-Fi o dati mobili.
 - Nessun carico di lavoro su meteo, oroscopo, notizie, monitoraggio del sonno, registrazione del russamento, pubblicità o sincronizzazione cloud dietro la tua sveglia.
 
 ## Piccolo e concentrato

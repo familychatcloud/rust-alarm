@@ -10,7 +10,7 @@
 
 Anlamsız bir zil sesiyle uyanmayın. Noler, "Hadi okula gidelim", "İlacınızı alın" veya "Havaalanına gitmek üzere yola çıkın" gibi yazdığınız etiketi söylüyor. Yarı uykudayken bile amacı anında duyarsınız.
 
-## Neden Noler'i seçmelisiniz?
+## Neden bu Rust alarmını seçmelisiniz?
 
 - Reklam yok, abonelik yok, uygulama içi satın alma yok, hesap yok, analiz yok ve davranış takibi yok.
 - Normal alarm kullanımı tamamen çevrimdışıdır. Alarmlar, etiketler, ayarlar, konuşma ve planlama, Wi-Fi veya mobil veri olmadan cihazınızda kalır.

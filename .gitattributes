@@ -1,0 +1,4 @@
+# This public repository contains product documentation, not the proprietary
+# application source. Exclude the locale-generation helper from GitHub's
+# language summary so the sidebar does not misrepresent the app as JavaScript.
+scripts/generate-locales.mjs linguist-vendored=true

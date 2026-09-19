@@ -37,14 +37,16 @@ A normal alarm rings, but half-awake you may not remember what it is for. Noler 
 
 The message begins on-device when the alarm fires. You hear the purpose immediately instead of opening the app, reading a small label, or wondering why the phone is making noise. It is especially useful for school runs, medication, appointments, cooking, shift work, and reminders shared with family.
 
-## Why choose this alarm instead of Alarmy?
+## Why choose this Rust alarm instead of Alarmy?
+
+Rust is a strong fit for an alarm clock: it combines native performance with memory safety and lets Noler share one focused core across iOS and Android. That helps us keep the app small and dependable without bundling an advertising stack, analytics SDK, weather feed, horoscope feed, or sleep platform. Rust is not a magic battery benchmark by itself—the measurable advantage comes from efficient native code plus all the unrelated background work Noler deliberately does not perform.
 
 | What matters | Alarm: No Ads, Zero Data Usage | Alarmy |
 |---|---|---|
 | **Core philosophy** | A focused alarm clock that does the essential job | A broader sleep and morning-routine platform |
 | **Signature wake-up experience** | **Speaks the alarm's purpose aloud**—for example, “Let's go to school” instead of an unexplained ring | Focuses on loud alarms, wake-up missions, and sleep features |
 | **On-device speech safety** | On-device system TTS; Android adds bundled open-source Flite when no system TTS engine is available; the OS alarm sound is the final fallback | See Alarmy's current listing for its sound behavior |
-| **Built with Rust** | **Yes** — one lightweight Rust application for iOS and Android | Implementation technology is not publicly stated |
+| **Language and UI stack** | **Rust + Dioxus** — one shared, lightweight application core and UI, with native Swift/Kotlin alarm bridges where the operating systems require them | Public engineering material points to [Swift on iOS](https://medium.com/delightroom/swift-performance-%ED%96%A5%EC%83%81-%EC%8B%9C%ED%82%A4%EA%B8%B0-feat-method-dispatch-493ac4fc7782) and [Kotlin/Java with Jetpack/Compose on Android](https://kr.linkedin.com/jobs/view/android-developer-at-%EB%94%9C%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%A3%B8-alarmy-3766282589); its complete current production mix is not publicly disclosed |
 | **iOS package size** | **11.5 MB** | **237.5 MB** |
 | **iOS size difference** | **About 20× smaller** | About 20× larger |
 | **Android release size** | **5.6 MB App Bundle uploaded to Google Play** | Google Play does not publish one device-independent package size |

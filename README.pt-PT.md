@@ -10,7 +10,7 @@
 
 Não acorde com um toque sem sentido. Noler fala o rótulo que você escreveu, como “Vamos para a escola”, “Tome seu remédio” ou “Vá para o aeroporto”. Você ouve o propósito imediatamente, mesmo quando está meio dormindo.
 
-## Por que escolher Noler?
+## Por que escolher este alarme Rust?
 
 - Sem anúncios, sem assinatura, sem compra no aplicativo, sem conta, sem análises e sem rastreamento comportamental.
 - O uso normal do alarme é totalmente offline. Alarmes, rótulos, configurações, fala e programação permanecem no seu dispositivo sem Wi-Fi ou dados móveis.

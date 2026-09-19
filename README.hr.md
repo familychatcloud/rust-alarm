@@ -10,10 +10,10 @@
 
 Nemojte se probuditi uz besmislenu zvonjavu. Noler izgovara oznaku koju ste napisali, poput "Idemo u školu", "Uzmite lijek" ili "Krenite na aerodrom". Svrhu čujete odmah, čak i kad ste u polusnu.
 
-## Zašto odabrati Noler?
+## Zašto odabrati ovaj Rust alarm?
 
 - Bez oglasa, bez pretplate, bez kupnje putem aplikacije, bez računa, bez analitike i bez praćenja ponašanja.
-- Normalna upotreba alarma potpuno je izvan mreže. Alarmi, oznake, postavke, govor i raspored ostaju na vašem uređaju bez Wi-Fi veze ili mobilnih podataka.
+- Uobičajena upotreba alarma potpuno je izvan mreže. Alarmi, oznake, postavke, govor i raspored ostaju na vašem uređaju bez Wi-Fi veze ili mobilnih podataka.
 - Nema vremena, horoskopa, vijesti, praćenja spavanja, snimanja hrkanja, oglašavanja ili sinkronizacije u oblaku.
 
 ## Mali i fokusirani

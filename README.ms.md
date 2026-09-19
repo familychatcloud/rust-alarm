@@ -10,7 +10,7 @@
 
 Jangan bangun dengan cincin yang tidak bermakna. Noler menyebut label yang anda tulis, seperti "Jom pergi ke sekolah," "Makan ubat anda" atau "Bertolak ke lapangan terbang." Anda mendengar tujuan serta-merta, walaupun anda separuh tidur.
 
-## Mengapa memilih Noler?
+## Mengapa memilih penggera Rust ini?
 
 - Tiada iklan, tiada langganan, tiada pembelian dalam apl, tiada akaun, tiada analitis dan tiada penjejakan tingkah laku.
 - Penggunaan penggera biasa adalah di luar talian sepenuhnya. Penggera, label, tetapan, pertuturan dan penjadualan kekal pada peranti anda tanpa Wi-Fi atau data mudah alih.

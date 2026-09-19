@@ -10,9 +10,9 @@
 
 Đừng thức dậy trước một tiếng chuông vô nghĩa. Noler nói nhãn bạn đã viết, chẳng hạn như “Chúng ta đi học thôi”, “Lấy thuốc đi” hoặc “Ra sân bay”. Bạn nghe thấy mục đích ngay lập tức, ngay cả khi bạn đang buồn ngủ.
 
-## Tại sao chọn Noler?
+## Tại sao chọn cảnh báo Rust này?
 
-- Không có quảng cáo, không đăng ký, không mua trong ứng dụng, không tài khoản, không phân tích và không theo dõi hành vi.
+- Không có quảng cáo, không đăng ký, không mua hàng trong ứng dụng, không tài khoản, không phân tích và không theo dõi hành vi.
 - Việc sử dụng cảnh báo thông thường hoàn toàn ngoại tuyến. Báo thức, nhãn, cài đặt, giọng nói và lập lịch vẫn ở trên thiết bị của bạn mà không cần Wi-Fi hoặc dữ liệu di động.
 - Không có thời tiết, tử vi, tin tức, theo dõi giấc ngủ, ghi âm tiếng ngáy, quảng cáo hoặc khối lượng công việc đồng bộ hóa trên đám mây chạy sau báo thức của bạn.
 

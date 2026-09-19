@@ -10,7 +10,7 @@
 
 Ne vous réveillez pas avec une sonnerie dénuée de sens. Noler prononce l'étiquette que vous avez écrite, telle que « Allons à l'école », « Prends tes médicaments » ou « Partons pour l'aéroport ». Vous entendez immédiatement le but, même lorsque vous êtes à moitié endormi.
 
-## Pourquoi choisir Noler ?
+## Pourquoi choisir cette alarme Rust ?
 
 - Pas de publicité, pas d'abonnement, pas d'achat intégré, pas de compte, pas d'analyse et pas de suivi comportemental.
 - L'utilisation normale de l'alarme est entièrement hors ligne. Les alarmes, les étiquettes, les paramètres, la parole et la planification restent sur votre appareil sans Wi-Fi ni données mobiles.

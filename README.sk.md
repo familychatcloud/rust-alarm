@@ -10,7 +10,7 @@
 
 Nezobúdzajte sa na nezmyselné zvonenie. Noler hovorí štítkom, ktorý ste napísali, napríklad „Poďme do školy“, „Vezmite si lieky“ alebo „Odíďte na letisko“. Účel počujete okamžite, aj keď ste v polospánku.
 
-## Prečo si vybrať Noler?
+## Prečo si vybrať tento alarm Rust?
 
 - Žiadne reklamy, žiadne predplatné, žiadny nákup v aplikácii, žiadny účet, žiadne analýzy a žiadne sledovanie správania.
 - Normálne používanie budíka je úplne offline. Budíky, štítky, nastavenia, reč a plánovanie zostanú na vašom zariadení bez Wi-Fi alebo mobilných dát.

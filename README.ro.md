@@ -10,7 +10,7 @@
 
 Nu te trezi cu un inel fără sens. Noler rostește eticheta pe care ați scris-o, cum ar fi „Hai să mergem la școală”, „Ia-ți medicamentele” sau „Plecă la aeroport”. Auzi scopul imediat, chiar și atunci când adormi pe jumătate.
 
-## De ce să alegeți Noler?
+## De ce să alegeți această alarmă Rust?
 
 - Fără reclame, fără abonament, fără achiziție în aplicație, fără cont, fără analize și fără urmărire comportamentală.
 - Utilizarea normală a alarmei este complet offline. Alarmele, etichetele, setările, vorbirea și programarea rămân pe dispozitivul dvs. fără Wi-Fi sau date mobile.

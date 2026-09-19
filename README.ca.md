@@ -10,7 +10,7 @@
 
 No et despertis amb un anell sense sentit. Noler diu l'etiqueta que has escrit, com ara "Anem a l'escola", "Preneu la vostra medicina" o "Marxa a l'aeroport". Sentes el propòsit immediatament, fins i tot quan estàs mig adormit.
 
-## Per què triar Noler?
+## Per què triar aquesta alarma Rust?
 
 - Sense anuncis, sense subscripció, sense compra integrada a l'aplicació, sense compte, sense analítiques i sense seguiment del comportament.
 - L'ús normal de l'alarma està totalment fora de línia. Les alarmes, les etiquetes, la configuració, la veu i la programació es mantenen al dispositiu sense connexió Wi-Fi ni dades mòbils.

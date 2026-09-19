@@ -8,9 +8,9 @@
 
 ## Usłysz, dlaczego dzwoni alarm
 
-Nie budź się, słysząc bezsensowny dzwonek. Noler odczytuje napisaną przez Ciebie etykietę, np. „Chodźmy do szkoły”, „Weź leki” lub „Jedź na lotnisko”. Cel słyszysz natychmiast, nawet gdy jesteś na wpół śpiący.
+Nie budź się, słysząc bezsensowny dzwonek. Noler odczytuje napisaną przez Ciebie etykietę, np. „Chodźmy do szkoły”, „Weź leki” lub „Jedź na lotnisko”. Słyszysz cel natychmiast, nawet gdy jesteś na wpół śpiący.
 
-## Dlaczego wybrać Noler?
+## Dlaczego warto wybrać ten alarm Rust?
 
 - Bez reklam, bez subskrypcji, bez zakupów w aplikacji, bez konta, bez analiz i bez śledzenia zachowań.
 - Normalne użycie alarmu jest całkowicie offline. Alarmy, etykiety, ustawienia, mowa i harmonogramy pozostają na Twoim urządzeniu bez Wi-Fi lub mobilnej transmisji danych.

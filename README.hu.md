@@ -10,7 +10,7 @@
 
 Ne ébredj fel egy értelmetlen csengetésre. Az Noler kimondja az Ön által írt címkét, például „Menjünk iskolába”, „Vegye be a gyógyszerét” vagy „Induljon a repülőtérre”. A célt azonnal hallja, még félálomban is.
 
-## Miért válassza az Noler-et?
+## Miért válassza ezt az Rust riasztót?
 
 - Nincsenek hirdetések, nincs előfizetés, nincs alkalmazáson belüli vásárlás, nincs fiók, nincs elemzés, és nincs viselkedéskövetés.
 - A normál riasztóhasználat teljesen offline állapotban van. Az ébresztések, címkék, beállítások, beszéd és ütemezés Wi-Fi vagy mobiladat-kapcsolat nélkül az eszközön maradnak.

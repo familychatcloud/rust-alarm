@@ -10,7 +10,7 @@
 
 Älä herää merkityksettömään soittoon. Noler puhuu kirjoittamaasi tarraa, kuten "Mennään kouluun", "Ota lääkkeesi" tai "Lähdä lentokentälle". Kuulet tarkoituksen välittömästi, vaikka olisit puoliunessa.
 
-## Miksi valita Noler?
+## Miksi valita tämä Rust-hälytys?
 
 - Ei mainoksia, ei tilauksia, ei sovelluksen sisäisiä ostoksia, ei tiliä, ei analytiikkaa eikä käyttäytymisen seurantaa.
 - Normaali hälytyskäyttö on täysin offline-tilassa. Hälytykset, tarrat, asetukset, puhe ja ajoitus pysyvät laitteessasi ilman Wi-Fi-yhteyttä tai mobiilidataa.

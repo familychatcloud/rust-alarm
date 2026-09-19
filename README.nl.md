@@ -8,9 +8,9 @@
 
 ## Hoor waarom het alarm afgaat
 
-Word niet wakker met een betekenisloos belsignaal. Noler spreekt het etiket uit dat je hebt geschreven, zoals 'Laten we naar school gaan', 'Neem je medicijnen mee' of 'Vertrek naar het vliegveld'. U hoort het doel onmiddellijk, zelfs als u half slaapt.
+Word niet wakker met een betekenisloos belsignaal. Noler spreekt het etiket uit dat je hebt geschreven, zoals 'Laten we naar school gaan', 'Neem je medicijnen mee' of 'Vertrek naar het vliegveld'. Je hoort het doel onmiddellijk, zelfs als je half slaapt.
 
-## Waarom kiezen voor Noler?
+## Waarom kiezen voor dit Rust-alarm?
 
 - Geen advertenties, geen abonnement, geen in-app-aankoop, geen account, geen analyses en geen gedragsregistratie.
 - Normaal alarmgebruik is volledig offline. Wekkers, labels, instellingen, spraak en planning blijven op uw apparaat staan ​​zonder Wi-Fi of mobiele data.

@@ -10,7 +10,7 @@
 
 Vågn ikke op til en meningsløs ring. Noler taler den etiket, du skrev, såsom "Lad os gå i skole", "Tag din medicin" eller "Tag til lufthavnen." Du hører formålet med det samme, selv når du er halvsøvn.
 
-## Hvorfor vælge Noler?
+## Hvorfor vælge denne Rust alarm?
 
 - Ingen annoncer, intet abonnement, intet køb i appen, ingen konto, ingen analyser og ingen adfærdssporing.
 - Normal brug af alarm er fuldt offline. Alarmer, etiketter, indstillinger, tale og planlægning forbliver på din enhed uden Wi-Fi eller mobildata.

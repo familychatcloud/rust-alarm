@@ -10,7 +10,7 @@
 
 Wachen Sie nicht mit einem bedeutungslosen Klingeln auf. Noler spricht die Aufschrift, die Sie geschrieben haben, wie zum Beispiel „Lass uns zur Schule gehen“, „Nimm deine Medikamente“ oder „Geh zum Flughafen.“ Sie hören den Zweck sofort, auch wenn Sie halb schlafen.
 
-## Warum Noler wählen?
+## Warum sollten Sie sich für diesen Rust-Alarm entscheiden?
 
 - Keine Werbung, kein Abonnement, kein In-App-Kauf, kein Konto, keine Analysen und keine Verhaltensverfolgung.
 - Die normale Alarmnutzung erfolgt vollständig offline. Alarme, Beschriftungen, Einstellungen, Sprache und Terminplanung bleiben ohne WLAN oder mobile Daten auf Ihrem Gerät.

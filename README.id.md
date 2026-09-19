@@ -10,7 +10,7 @@
 
 Jangan bangun karena dering yang tidak berarti. Noler mengucapkan label yang Anda tulis, seperti “Ayo pergi ke sekolah”, “Minum obat”, atau “Berangkat ke bandara”. Anda langsung mendengar tujuannya, bahkan ketika Anda setengah tertidur.
 
-## Mengapa memilih Noler?
+## Mengapa memilih alarm Rust ini?
 
 - Tidak ada iklan, tidak ada langganan, tidak ada pembelian dalam aplikasi, tidak ada akun, tidak ada analitik, dan tidak ada pelacakan perilaku.
 - Penggunaan alarm normal sepenuhnya offline. Alarm, label, pengaturan, ucapan, dan penjadwalan tetap ada di perangkat Anda tanpa Wi-Fi atau data seluler.
