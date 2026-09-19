@@ -9,8 +9,8 @@
 
 **Do not wake up to a meaningless ring. Wake up hearing why:** “Let's go to school.” “Take your medicine.” “Leave for the airport.”
 
-<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="assets/app-store-badge.png" alt="Download Alarm: No Ads, Zero Data Usage on the App Store"></a>
-<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" alt="Get Alarm: No Ads, Zero Data Usage on Google Play"></a>
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Download Alarm: No Ads, Zero Data Usage on the App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Get Alarm: No Ads, Zero Data Usage on Google Play"></a>
 
 Free to download. No account. No subscription. No in-app purchase.
 
