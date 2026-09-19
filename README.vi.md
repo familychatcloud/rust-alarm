@@ -1,6 +1,4 @@
 <div align="center">
-  <p><a href="README.md">English</a> · <strong>Tiếng Việt</strong> · <a href="LANGUAGES.md">Tất cả 39 ngôn ngữ</a></p>
-
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="Đồng hồ báo thức Rust miễn phí - Không có quảng cáo, không theo dõi, không Bloat">
 
 # Đồng hồ báo thức Rust miễn phí - Không có quảng cáo, không theo dõi, không Bloat

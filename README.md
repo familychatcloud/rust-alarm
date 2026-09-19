@@ -1,6 +1,4 @@
 <div align="center">
-  <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a> · <a href="LANGUAGES.md">All 39 locales</a></p>
-
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="160" alt="Alarm: No Ads, Zero Data Usage app icon">
 
 # Free Rust Alarm Clock — No Ads, No Tracking, No Bloat
@@ -45,7 +43,7 @@ The message begins on-device when the alarm fires. You hear the purpose immediat
 |---|---|---|
 | **Core philosophy** | A focused alarm clock that does the essential job | A broader sleep and morning-routine platform |
 | **Signature wake-up experience** | **Speaks the alarm's purpose aloud**—for example, “Let's go to school” instead of an unexplained ring | Focuses on loud alarms, wake-up missions, and sleep features |
-| **On-device speech safety** | System text-to-speech → bundled offline voice → system alarm-sound fallback | See Alarmy's current listing for its sound behavior |
+| **On-device speech safety** | On-device system TTS; Android adds bundled open-source Flite when no system TTS engine is available; the OS alarm sound is the final fallback | See Alarmy's current listing for its sound behavior |
 | **Built with Rust** | **Yes** — one lightweight Rust application for iOS and Android | Implementation technology is not publicly stated |
 | **iOS package size** | **11.5 MB** | **237.5 MB** |
 | **iOS size difference** | **About 20× smaller** | About 20× larger |
@@ -120,11 +118,7 @@ Alarm records, labels, settings, attachments, speech, and notification schedulin
 
 Give an alarm a label such as “School,” “Medicine,” “Airport,” or “Call Mum.” When it rings, Noler can speak that label aloud using speech available on your device.
 
-Its on-device sound strategy has three layers:
-
-1. System text-to-speech speaks the alarm label.
-2. A bundled offline voice provides a fallback.
-3. The system alarm sound remains the final safety floor.
+Its on-device sound strategy is platform-specific. Both platforms use system text-to-speech for the alarm label. On Android, a bundled, lightweight open-source Flite voice takes over when a device has no usable system TTS engine. The operating system's alarm sound remains the final safety floor.
 
 The goal is simple: a missing voice should never turn into silence.
 

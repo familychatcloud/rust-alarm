@@ -1,6 +1,4 @@
 <div align="center">
-  <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <strong>繁體中文</strong> · <a href="LANGUAGES.md">全部 39 個語言及地區版本</a></p>
-
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="160" alt="Alarm 無廣告離線鬧鐘圖示">
 
 # 免費 Rust 鬧鐘：無廣告、無追蹤、無臃腫功能
@@ -42,7 +40,7 @@
 |---|---|---|
 | 產品定位 | **專注完成鬧鐘的核心工作** | 更廣泛的睡眠與晨間生活平台 |
 | 特色叫醒體驗 | **直接朗讀鬧鐘的目的**，例如用「該去學校了」代替沒有解釋的鈴聲 | 重點是響亮鈴聲、叫醒任務與睡眠功能 |
-| 裝置端語音保障 | 系統文字轉語音 → 內建離線語音 → 系統鬧鐘鈴聲備援 | 以 Alarmy 目前商店說明為準 |
+| 裝置端語音保障 | 使用裝置系統文字轉語音；Android 在裝置沒有可用系統 TTS 引擎時啟用內建、輕量且開源的 Flite；系統鬧鐘鈴聲為最終備援 | 以 Alarmy 目前商店說明為準 |
 | Rust 建構 | **是**，iOS 與 Android 使用同一套輕量 Rust 應用程式 | 未公開說明實作技術 |
 | iOS App 大小 | **11.5 MB** | **237.5 MB** |
 | iOS 大小差異 | **約小 20 倍** | 約大 20 倍 |

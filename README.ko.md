@@ -1,6 +1,4 @@
 <div align="center">
-  <p><a href="README.md">English</a> · <strong>한국어</strong> · <a href="LANGUAGES.md">모든 39개 로케일</a></p>
-
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="무료 Rust 알람 시계 — 광고 없음, 추적 없음, 부풀림 없음">
 
 # 무료 Rust 알람 시계 — 광고 없음, 추적 없음, 부풀림 없음
