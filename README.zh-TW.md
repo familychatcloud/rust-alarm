@@ -1,0 +1,84 @@
+<div align="center">
+  <p><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <strong>繁體中文</strong></p>
+
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="160" alt="Alarm 無廣告離線鬧鐘圖示">
+
+# 免費 Rust 鬧鐘：無廣告、無追蹤、無臃腫功能
+
+### 適用於 iPhone、iPad 與 Android 的輕量離線語音鬧鐘
+
+**鬧鐘應該只負責叫醒你，而不是推送廣告、追蹤睡眠、讀取星座運勢或浪費電量。**
+
+[在 Apple App Store 下載](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [在 Google Play 下載](https://play.google.com/store/apps/details?id=com.noler.app)
+
+免費下載。無需帳戶。沒有訂閱。沒有 App 內購買。
+
+⚡ **在我們使用同一支手機進行的整夜測試中，Noler 約耗電 3%，Alarmy 約耗電 10%：Noler 的整夜耗電約低 3 倍。**
+</div>
+
+## 只有鬧鐘，沒有負擔
+
+**Alarm: No Ads, Zero Data Usage** 是一款以 Rust 建構的專注型鬧鐘。它支援單次與重複鬧鐘、朗讀鬧鐘標籤，並將鬧鐘、設定與附件保存在你的裝置上。
+
+它沒有廣告、分析追蹤、帳戶、雲端同步，也沒有與鬧鐘無關的天氣、新聞、星座運勢、睡眠追蹤或鼾聲錄音功能。你下載的是鬧鐘，得到的就是鬧鐘。
+
+## 為什麼選擇 Noler，而不是 Alarmy？
+
+| 比較項目 | Alarm: No Ads, Zero Data Usage | Alarmy |
+|---|---|---|
+| 產品定位 | **專注完成鬧鐘的核心工作** | 更廣泛的睡眠與晨間生活平台 |
+| Rust 建構 | **是**，iOS 與 Android 使用同一套輕量 Rust 應用程式 | 未公開說明實作技術 |
+| iOS App 大小 | **11.5 MB** | **237.5 MB** |
+| iOS 大小差異 | **約小 20 倍** | 約大 20 倍 |
+| Android 發布包 | **上傳至 Google Play 的 App Bundle 為 5.6 MB** | Google Play 不公布統一的裝置無關大小 |
+| 廣告 | **無** | 包含廣告 |
+| 訂閱與 App 內購買 | **無** | 包含 App 內購買與進階訂閱 |
+| 天氣 | **無** | **有**，其 Android 商店說明提到 App 關閉後仍可使用位置取得天氣 |
+| 星座運勢 | **無** | **有**，Alarmy Android 說明中心有相關文件 |
+| 睡眠追蹤 | **無** | **有** |
+| 鼾聲監測 | **無** | **有** |
+| 睡眠聲音 / ASMR | **無** | **有** |
+| 背景功能負擔 | **只做鬧鐘需要的工作** | 更多功能可能帶來更多背景與網路工作 |
+| 實測整夜耗電 | **約 3%**，來自所有者在同一支手機上的整夜測試 | **約 10%**，來自同一次測試 |
+| 該次測試的耗電差異 | **整夜耗電約低 3 倍** | 耗電約為 Noler 的 3.3 倍 |
+| 電量設計 | **省電是產品優先目標**：正常鬧鐘操作完全離線，不使用 Wi-Fi 或行動數據取得天氣、星座、廣告、分析或雲端同步內容 | 較大的連網功能集合會執行鬧鐘之外的網路與處理工作 |
+| 正常鬧鐘資料連網 | **零**，鬧鐘資料留在裝置上 | 連網功能需要網路存取 |
+| 介面語言 | **39 個 App 內語言及地區選項** | 目前 iOS 套件列出 31 個不同語言代碼 |
+| 鬧鐘語音語言 | **24 種** | 以 Alarmy 目前商店資訊為準 |
+
+Apple 目前目錄中的套件大小為：Noler `11,506,688` 位元組，Alarmy `237,476,864` 位元組，核對日期為 2026 年 9 月 19 日。Android 採用拆分安裝，實際下載和安裝大小會因裝置而異；5.6 MB 是 Noler 目前經驗證並上傳至 Google Play 的 App Bundle 大小。
+
+Alarmy 適合需要叫醒任務、睡眠分析、鼾聲監測、睡眠聲音、天氣、星座運勢與進階功能目錄的使用者。**如果你只想要一款始終保持為鬧鐘的 App，請選擇 Noler。**
+
+## 同一支手機整夜測試：耗電約低 3 倍
+
+在所有者的手機上，Noler 整夜約耗電 **3%**，Alarmy 約耗電 **10%**。在這次實際觀察中，Alarmy 耗電約為 Noler 的 3.3 倍，而 Noler 的耗電約低 70%。
+
+這是在同一支真實手機上的親自測試，不是實驗室認證。實際結果會因手機、電池健康、系統、訊號、鬧鐘設定與啟用功能而變化，不能保證每台裝置都得到完全相同的百分比。
+
+## 更少連網，也就更少不必要的耗電
+
+天氣與星座內容需要連網取得，睡眠和鼾聲追蹤需要持續監測，廣告、分析與雲端帳戶也需要程式碼、網路及處理資源。
+
+Noler 的正常鬧鐘操作完全離線。儲存、排程、朗讀和響鈴都不需要 Wi-Fi 或行動數據，因此不會為了天氣、星座、廣告、分析、帳戶或雲端同步喚醒網路。它避免了這些額外功能產生的 CPU、網路、記憶體與電量負擔。工程選擇很直接：**不啟動與鬧鐘無關的工作。**
+
+## 隱私是產品設計，不是開關
+
+沒有廣告 ID、帳戶、登入、分析 SDK、行為追蹤、雲端備份、同步或遠端鬧鐘資料服務。鬧鐘、標籤、設定、附件、語音和通知排程都保留在裝置上。
+
+## 39 個介面語言與 24 種鬧鐘語音
+
+介面提供阿拉伯語、加泰隆尼亞語、簡體中文、繁體中文、克羅埃西亞語、捷克語、丹麥語、荷蘭語、四種英語地區、芬蘭語、法語、加拿大法語、德語、希臘語、希伯來語、印地語、匈牙利語、印尼語、義大利語、日語、韓語、馬來語、挪威博克馬爾語、波蘭語、兩種葡萄牙語、羅馬尼亞語、俄語、斯洛伐克語、兩種西班牙語、瑞典語、泰語、土耳其語、烏克蘭語及越南語。
+
+鬧鐘語音提供 24 個語言與地區選項；實際語音取決於裝置安裝的文字轉語音引擎。內建離線備援語音與系統鬧鐘聲仍是安全後備。
+
+## 立即下載免費無廣告鬧鐘
+
+| 平台 | 官方下載 |
+|---|---|
+| iPhone 與 iPad | [Apple App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=com.noler.app) |
+
+資料來源：[Noler App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062)、[Noler Google Play](https://play.google.com/store/apps/details?id=com.noler.app)、[Alarmy App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766)、[Alarmy Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan)與[Alarmy 星座功能說明](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)。商店功能與套件大小可能改變。
+
+**本儲存庫是產品介紹頁面，不是開放原始碼發行。應用程式原始碼為專有軟體，不在此公開。**
