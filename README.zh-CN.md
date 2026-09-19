@@ -1,62 +1,194 @@
+<div align="center">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="160" alt="诺勒应用程序图标">
+
 # 闹钟：无广告，零流量
 
-## 无广告离线语音闹钟，用自己的文字设置起床提醒
+### 适用于 iPhone、iPad 和 Android 的轻量级离线闹钟
 
-<div align="center">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/df/ef7ddfbd-793f-e33c-ed47-7a23c793eb52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" width="150" alt="无广告离线语音闹钟，用自己的文字设置起床提醒">
+一款专注于叫醒您的闹钟，没有广告、睡眠跟踪、星座运势或额外的后台工作负载。
 
-<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="Apple App Store"></a>
-<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="Google Play"></a>
+听听闹钟的用途：“我们去学校吧。” “吃药吧。” “出发去机场。”
+
+<a href="https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" alt="在 App Store 上下载 Noler"></a>
+<a href="https://play.google.com/store/apps/details?id=com.noler.app"><img src="assets/google-play-badge.png" height="60" alt="在 Google Play 上获取诺勒"></a>
+
+免费下载。没有帐户。没有订阅。没有应用内购买。
+
+机主观察到，在同一部手机上，Noler 的夜间电池电量消耗约为 3%，而 Alarmy 的电池电量为 10%。这是非正式的，不是受控实验室测试，也不是保证。
 </div>
 
-不只听见铃声，也听懂为什么要起床。Noler 用设备上的语音朗读闹钟名称，日常使用无需联网，记录和设置留在本机。无广告、无账户、无订阅。
+<!-- section:focus -->
+## 一个专注的闹钟，没有不相关的额外内容
 
-给早晨一个清楚的提醒。把闹钟命名为“该去上班了”或“出发去机场”，Noler 就会通过设备上的语音功能读出这段文字。这款轻量语音闹钟适合起床、日常作息和到点提醒。
+Noler 是一款用 Rust 构建的专注闹钟。它创建一次性和重复警报，大声说出每个警报的标签，并在您的设备上保留警报记录和设置。
 
-可以设置一次性闹钟，也可以选择每周重复的日期。下一个闹钟一目了然，大按钮方便稍后提醒或停止响铃。如果语音无法使用，还有闹铃声作为备用。
+该应用程序专注于闹钟，而不是将其与更广泛的生活方式服务结合起来。
 
-正常闹钟功能完全离线：定时、文字、语音和记录都不需要 Wi-Fi 或移动数据。闹钟、设置和附件保存在设备上。没有广告、使用分析、行为跟踪、账户、云同步、订阅或应用内购买。
+关闭后没有等待的广告，没有分析监视您如何使用该应用程序，没有要创建的帐户，没有要维护的云服务，也没有不相关的天气、新闻、星座、睡眠跟踪或打鼾记录机器在您的闹钟后面运行。
 
-省电从减少额外任务开始。Noler 不提供天气、星座运势、广告、使用分析、云同步或其他后台在线信息流，因此不会产生这些服务对应的网络传输和处理负担。实际耗电取决于设备、设置和使用方式，不承诺固定的省电幅度。
+<!-- section:spoken-purpose -->
+## 听听闹钟的用途
 
-应用的共享核心与界面使用 Rust 和 Dioxus 构建，界面提供 39 种语言及地区选项。不附带睡眠跟踪、鼾声录制或新闻信息流。
+正常的闹钟响了，但半醒时你可能不记得它的用途。诺勒说出了您为该警报写的标签：
+
+> “我们去学校吧。”
+
+> “吃药吧。”
+
+> “现在出发去机场。”
+
+当警报响起时，该消息就会在设备上开始显示。您可以立即听到目的，而不是打开应用程序、阅读小标签或想知道手机为何发出噪音。它对于学校跑步、用药、预约、烹饪、轮班工作以及与家人共享的提醒特别有用。
+
+<!-- section:comparison -->
+## 为什么选择这款 Rust 闹钟，而不是 Alarmy？
+
+Rust 兼顾原生性能与内存安全，让 iOS 和 Android 共用一套应用核心。我们不集成广告库、分析 SDK，以及天气、星座或睡眠服务，有助于保持应用小巧可靠。不过，使用 Rust 本身并不能证明省电。我们的设计思路是采用原生实现，并省去与闹钟无关的后台任务；具体耗电数据仍须以真机测量为依据。
+
+| 重要的是 | 闹钟：无广告，零流量 | Alarmy |
+|---|---|---|
+| **核心理念** | 专注于完成基本工作的闹钟 | 更广泛的睡眠和早晨常规平台 |
+| **标志性的唤醒体验** | 大声说出闹钟的用途，例如，“我们去学校吧”，而不是莫名其妙的铃声 | 专注于响亮的警报、叫醒任务和睡眠功能 |
+| **设备上的语音安全** | 设备上系统 TTS； Android 在没有系统 TTS 引擎可用时添加捆绑的开源 Flite；操作系统警报声是最后的后备措施 | 请参阅 Alarmy 的当前列表以了解其声音行为 |
+| **语言和 UI 堆栈** | Rust + Dioxus — 一个共享的轻量级应用程序核心和 UI，在操作系统需要时具有本机 Swift/Kotlin 警报桥 | 公开技术资料提到了 [iOS: Swift](https://medium.com/delightroom/swift-performance-%ED%96%A5%EC%83%81-%EC%8B%9C%ED%82%A4%EA%B8%B0-feat-method-dispatch-493ac4fc7782) · [Android: Kotlin/Java, Jetpack/Compose](https://kr.linkedin.com/jobs/view/android-developer-at-%EB%94%9C%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%A3%B8-alarmy-3766282589); 目前应用的完整技术构成尚未公开. |
+| **iOS 包大小** | 11.5 MB | 237.5 MB |
+| **iOS 大小差异** | ≈1/20 | ≈20× |
+| **Android 版本大小** | 5.6 MB 应用程序包已上传至 Google Play | Google Play 不发布一种独立于设备的包大小 |
+| **广告** | 没有任何 | 包含广告 |
+| **订阅或应用内购买** | 没有任何 | 应用内购买和高级订阅 |
+| **需要帐户** | 否——没有账户系统 | 没有比较； Alarmy 的商品详情侧重于其更广泛的功能目录 |
+| **分析或行为跟踪** | 没有任何 | 没有比较；诺勒的承诺是，它不包括任何一个 |
+| **云同步** | 无 — 警报数据保留在设备上 | 没有比较；诺勒故意没有云层 |
+| **天气功能** | 不 | 是的——Alarmy 的 Android 列表显示，在应用程序关闭后，可以使用位置来获取天气 |
+| **星座特征** | 不 | 是的 — 记录在 Alarmy 的 Android 帮助中心 |
+| **睡眠追踪** | 不 | 是的 |
+| **打鼾监测** | 不 | 是的 |
+| **睡眠声音/ASMR** | 不 | 是的 |
+| **后台功能工作负载** | 报警相关工作；没有不相关的在线源、跟踪、广告或云工作 | 其他启用的功能可能涉及后台和网络工作；没有声称受控功率比较 |
+| **观察到夜间电池电量耗尽** | 机主同机过夜测试中约3% | 相同测试中约10% |
+| **该观察中的电池差异** | 仅在这次非正式观察中，排水量就减少了约 70% | 大约是诺勒观察到的流失量的 3.3 倍；不是一般基准 |
+| **电池方法** | 节省电池是产品的首要任务。正常闹钟操作完全离线，避免 Wi-Fi/移动数据工作以及天气、星座、睡眠分析、广告、分析和云同步造成的电池消耗 | 其更大的连接功能集可以执行调度和响铃警报之外的网络和处理工作 |
+| **正常报警数据网络使用** | 零 — 警报、标签、设置、附件、语音和日程安排保留在设备上 | 连接功能需要网络访问 |
+| **用户界面语言** | 39 个应用内区域设置选择 | 当前 iOS 包列出的 31 种独特语言代码 |
+| **报警语音语言** | 24 种选择，在您的设备上使用语音 | 请参阅 Alarmy 的列表以了解其当前的语音覆盖范围 |
+
+大小比较使用 Apple 目录报告的 2026 年 9 月 19 日当前美国 App Store 版本的包字节数：Noler 11,506,688 字节和 Alarmy 237,476,864 字节。 Android App Bundles 采用拆分交付方式，因此每个人的 Google Play 下载和安装大小因设备而异； 5.6 MB 是 Noler 验证的当前 Play 上传包，而不是承诺的安装大小测量值。
+
+语言计数使用不同的公开证据：Noler 的计数来自应用内语言选择器，而 Alarmy 的计数是其当前 iOS 包报告的唯一语言代码计数。 39 个选项是指应用内界面，并不保证当前店面本地化状态。
+
+对于那些积极想要唤醒任务、睡眠分析、打鼾监测、睡眠声音、天气、星座和高级功能目录的人来说，Alarmy 是一个不错的选择。当您希望闹钟应用程序仍然是闹钟应用程序时，请选择 Noler。
+
+<!-- section:battery-observation -->
+## 我们非正式的隔夜观察：3% 与 10%
+
+在用户的手机上，夜间测试显示 Noler 的电池使用量约为 3%，而 Alarmy 的电池使用量约为 10%。换句话说，Alarmy 在整夜观察中使用的电池电量大约是原来的 3.3 倍，而 Noler 的电量消耗大约低了 70%。
+
+这是第一手的同一手机比较，而不是受控实验室认证。电池结果因手机、电池健康状况、操作系统、信号强度、闹钟设置和启用的功能而异。无法保证每台设备的确切数字，但优先考虑电池的原因已内置于产品中。
+
+<!-- section:battery-workload -->
+## 更少的网络意味着更少的电池工作
+
+每个额外的背景功能都是有成本的。必须获取天气。必须获取星座内容。睡眠和打鼾跟踪需要长期监测。广告和分析需要代码、网络流量和处理。云帐户需要同步。
+
+诺勒在正常警报使用期间不会执行任何操作。它不需要 Wi-Fi 或移动数据来存储、安排、说话或响铃。通过保持完全离线状态来完成其核心工作，它可以避免唤醒网络收音机以获取天气、星座、广告、分析、帐户或云同步流量。
+
+该产品做出了最持久的省电选择：首先不要开始不相关的工作。后台职责越少，意味着除了警报实际需要的工作之外，消耗 CPU 时间、Wi-Fi/移动无线电时间、内存和电池的机会也更少。
+
+### 如何测试数字电池比较
+
+模拟器无法提供有效的手机电池比较：它运行在计算机的处理器、无线电和电源上。未来任何“使用的电池减少 X 倍”的说法都将来自匹配的物理设备测试。
+
+该基准测试将在相同的型号、操作系统版本、电池健康范围、网络、亮度、音量和温度上运行这两个应用程序。它将测量两个单独公开的场景：类似的基本警报，以及每个应用程序的正常默认体验。测试顺序将被交替，不相关的应用程序将被停止，设备将以相同的电量和温度启动，并且每个场景将至少重复五次。
+
+Android 测量将在支持时使用系统电池统计数据和硬件电源数据。 iOS 测量将使用物理 iPhone 上的 Instruments 能量痕迹。结果将报告测试持续时间、精确设置、中值能量结果、运行范围和原始跟踪文件。在受控证据存在之前，所发布的 3% 与 10% 结果仍然明确表明是所有者在真实设备上过夜观察的结果，而不是对每部手机的保证。
+
+<!-- section:package-size -->
+## 具有集中功能集的小软件包
+
+在 iOS 上，当前的 Noler 包约为 11.5 MB，与 Alarmy 的 237.5 MB 相比，大约小 20 倍。当前上传到 Google Play 的 Android App Bundle 大小为 5.6 MB。
+
+这种差异并非偶然。 Noler 不捆绑睡眠平台、广告系统、分析层、云帐户系统、新闻源、天气服务或星座源。您下载闹钟并获得闹钟。
+
+<!-- section:privacy -->
+## 私人设计
+
+正常报警使用不会向任何地方发送报警数据。
+
+- 无广告ID
+- 没有帐户或登录
+- 没有分析 SDK
+- 没有行为跟踪
+- 没有云备份或同步
+- 无远程报警数据服务
+- 无后台跨域网络请求
+
+警报记录、标签、设置、附件、语音和通知安排保留在您的设备上。仅当您在“设置”中明确选择实时条款、隐私和支持页面时，它们才会打开。
+
+<!-- section:speech-fallback -->
+## 一个会说话的闹钟，解释它为什么响
+
+给警报贴上“学校”、“医疗”、“机场”或“给妈妈打电话”等标签。当铃声响起时，Noler 可以使用设备上可用的语音大声读出该标签。
+
+其设备上的声音策略是特定于平台的。两个平台都使用系统文本转语音作为警报标签。在 Android 上，当设备没有可用的系统 TTS 引擎时，捆绑的轻量级开源 Flite 语音将接管。操作系统的警报声仍然是最后的安全底线。
 
 仅在 Android 上，内置的开源 Flite 引擎会在没有可用系统语音引擎时提供英语备用语音。可用声音取决于已安装的语言。可选的保活模式默认关闭，开启后可能增加耗电。
 
-设置中的在线页面，例如条款和隐私政策，只有在你主动打开时才会联网加载。
+后备警报声音旨在防止不可用的语音产生无声警报。
 
-## Noler 与 Alarmy：不同的功能重点
+<!-- section:features -->
+## 你得到什么
 
-| # | Noler 与 Alarmy：不同的功能重点 | 闹钟：无广告，零流量 | Alarmy |
-|---|---|---|---|
-| 1 | 定位 | 专注于闹钟 | 更广泛的起床、睡眠与晨间功能 |
-| 2 | 朗读闹钟名称 | 朗读你设置的闹钟名称 | 以当前商店说明为准，此处不作比较 |
-| 3 | 技术实现 | Rust + Dioxus，共享核心与界面，原生 Swift/Kotlin 桥接 | 未完整公开当前生产版本的技术组成 |
-| 4 | iOS 安装包 | 11.5 MB (≈1/20) | 237.5 MB |
-| 5 | Android 上传包 | 上传的 App Bundle 为 5.6 MB | 未公开适用于所有设备的统一安装包大小 |
-| 6 | 广告 | 无 | 有 |
-| 7 | 内购与订阅 | 无 | 应用内购买与高级订阅 |
-| 8 | 日常离线使用 | 正常闹钟功能离线运行 | 在线附加功能需要网络；不比较基础闹钟的离线能力 |
-| 9 | 天气 | 无 | 有 (Android) |
-| 10 | 星座运势 | 无 | 有 (Android) |
-| 11 | 睡眠与鼾声功能 | 无 | 有 |
-| 12 | 界面选项 | 应用内提供 39 种语言及地区选项 | 不作比较 |
-| 13 | 电池设计 | 省去额外在线服务的工作，不保证固定省电幅度 | 不声称已完成受控电池对比测试 |
+- 工作日一次性闹钟和重复闹钟
+- 语音报警标签
+- 方便刚睡醒时操作的大号贪睡和停止按钮
+- 清晰地查看下一个预定的警报
+- 本地附件和设置
+- 无需帐户即可在设备上存储
+- 黑暗、无干扰的界面
+- iPhone、iPad 和 Android 支持
+- 39 个 UI 区域设置选择
+- 24种报警声音语言选择
 
-2026-09-19 · US App Store · Noler: 11,506,688 B · Alarmy: 237,476,864 B · Alarmy / Noler ≈20:1.
+<div align="center">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/c3/0b/0cc30b91-a689-82a9-07e1-fef80feb752f/Simulator_Screenshot_-_iPhone_17_Pro_Max_-_2026-07-12_at_04.28.36.png/320x480bb.jpg" width="260" alt="诺勒警报列表和下一个警报屏幕">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/25/e4/3425e445-96e9-08a5-a44a-a0f68bee112a/Simulator_Screenshot_-_iPhone_17_Pro_Max_-_2026-07-12_at_04.29.15.png/320x480bb.jpg" width="260" alt="诺勒闹钟屏幕">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/7c/35/ee7c357e-20f3-7723-bc78-d904de02817c/Simulator_Screenshot_-_iPhone_17_Pro_Max_-_2026-07-12_at_04.30.29.png/320x480bb.jpg" width="260" alt="诺勒警报设置屏幕">
+</div>
 
-iOS 数据来自 2026 年 9 月 19 日的美国 Apple 目录，安装包大小比例约为 1:20，不是运行内存比较。Android 的 5.6 MB 指上传的 App Bundle；分包交付使实际下载和安装大小因设备而异，不是安装大小承诺。39 个选项来自 Noler 的应用内语言选择器，未用相同方法统计 Alarmy。天气与星座运势的证据仅针对 Android。耗电取决于设备、设置和启用的功能。
+<!-- section:ui-languages -->
+## 39 种界面区域设置选择
 
-[完整证据与详细比较（英文）](README.md)
+阿拉伯语、加泰罗尼亚语、简体中文、繁体中文、克罗地亚语、捷克语、丹麦语、荷兰语、澳大利亚英语、加拿大英语、英国英语、美国英语、芬兰语、法语、加拿大法语、德语、希腊语、希伯来语、印地语、匈牙利语、印度尼西亚语、意大利语、日语、韩语、马来语、书面挪威语、波兰语、巴西葡萄牙语、欧洲葡萄牙语、罗马尼亚语、俄语、斯洛伐克语、西班牙语、拉丁美洲西班牙语、瑞典语、泰语、土耳其语、乌克兰语和越南语.
 
-来源: [Noler · App Store](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) · [Noler · Google Play](https://play.google.com/store/apps/details?id=com.noler.app) · [Alarmy · App Store](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766) · [Alarmy · Google Play](https://play.google.com/store/apps/details?id=droom.sleepIfUCan) · [Alarmy · Android · 星座运势](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
+<!-- section:voice-languages -->
+## 24种报警声音语言选择
 
-功能与安装包大小可能变化。Alarmy 商标属于其权利人；本项目与 Alarmy 或 DelightRoom 无关联，也未获其认可。
+阿拉伯语（埃及）、孟加拉语（孟加拉国）、荷兰语（荷兰）、英语（印度）、美国英语、法语（法国）、德语（德国）、印地语（印度）、印度尼西亚语（印度尼西亚）、意大利语（意大利）、日语（日本）、韩语（韩国）、马拉地语（印度）、波兰语（波兰）、巴西葡萄牙语、罗马尼亚语（罗马尼亚）、俄语（俄罗斯）、西班牙语（美国）、泰米尔语（印度）、泰卢固语（印度）、泰语（泰国）、土耳其语（土耳其）、乌克兰语（乌克兰）和越南语（越南）.
 
-[Apple App Store](https://apps.apple.com/app/id6765933062) · [Google Play](https://play.google.com/store/apps/details?id=com.noler.app)
+语音可用性和发音取决于设备制造商或操作系统安装的文本转语音语音。捆绑的 Flite 后备版本仅适用于 Android，并且支持英语；当无法使用语音时，两个平台都有警报声音回退。
 
-[全部语言与地区](LANGUAGES.md) · [noler.com/privacy](https://noler.com/privacy) · [noler.com/support](https://noler.com/support)
+<!-- section:downloads -->
+## 下载免费闹钟
+
+| 平台 | 官方下载 |
+|---|---|
+| iPhone 和 iPad | [苹果应用商店下载](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062) |
+| 安卓 | [在 Google Play 上获取](https://play.google.com/store/apps/details?id=com.noler.app) |
+
+<!-- section:sources -->
+## 比较来源
+
+- [Noler 在 App Store 上](https://apps.apple.com/us/app/alarm-no-ads-zero-data-usage/id6765933062)
+- [Noler 在 Google Play 上](https://play.google.com/store/apps/details?id=com.noler.app)
+- [Alarmy 在 App Store 上](https://apps.apple.com/us/app/alarmy-loud-alarm-clock/id1163786766)
+- [Alarmy 在 Google Play 上](https://play.google.com/store/apps/details?id=droom.sleepIfUCan)
+- [Alarmy Android 帮助：星座设置](https://alarmy-android.zendesk.com/hc/en-us/articles/360004222553--Horoscope-How-do-I-set-the-zodiac)
+
+商店功能和包装尺寸可能会发生变化。比较检查日期为 2026 年 9 月 19 日。Alarmy 是其各自所有者的商标；该项目不隶属于 Alarmy 或 DelightRoom，也不受其认可。
+
+---
 
 本仓库用于介绍产品，不公开应用的专有源代码。内置 Flite 语音引擎为开源组件。
 
-<!-- Locale: zh-Hans. Editorial proposal; no auto-translation. -->
+<div align="center">
+  <strong>在专注的闹钟中醒来，没有广告或跟踪。</strong>
+</div>
